@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<addon 
+	id="repository.family" 
+	version="1.0.0" 
+	name="[B][COLOR lime]Family Repository[/COLOR][/B]" 
+	provider-name="Family">
+	<requires>
+		<import addon="xbmc.addon" version="12.0.0"/>
+	</requires>
+	<extension point="xbmc.addon.repository"
+		name="[COLOR lime][B]Family Repository[/B][/COLOR]">
+		<info compressed="true">https://raw.githubusercontent.com/oldchip/addonkodi.xml/master/addon.xml</info>
+		<datadir zip="true">https://github.com/hieuhienvn/hieuhien.vn/raw/master/zips/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Install addon from Family's repository</summary>
+		<description lang="en">[COLOR red][B]Family[/COLOR]-[COLOR lime]Repository tập hợp các addon và repository giải trí online trên XBMC - Kodi[/B][/COLOR]</description>
+		<disclaimer lang="en">Nội dung được lấy từ Internet</disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
