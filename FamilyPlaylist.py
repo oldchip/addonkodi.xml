@@ -13,7 +13,7 @@ image         = xbmc.translatePath(os.path.join(path, "icon.png"))
 
 plugin         = Plugin()
 addon          = xbmcaddon.Addon("plugin.video.family.vn")
-pluginrootpath = "plugin://plugin.video.family.vn"
+pluginrootpath = "plugin://plugin.video.HieuHien.vn"
 http           = httplib2.Http(cache, disable_ssl_certificate_validation=True)
 query_url      = "https://docs.google.com/spreadsheets/d/{sid}/gviz/tq?gid={gid}&headers=1&tq={tq}"
 sheet_headers  = {
