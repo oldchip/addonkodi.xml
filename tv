@@ -1,0 +1,188 @@
+#EXTM3U
+
+#EXTINF:-1 tvg-id="VTV 1" tvg-logo="http://ia601504.us.archive.org/17/items/LOGOTV_201701/VTV1_HD.png" group-title="Kênh VN",VTV1 HD
+http://mytv.duckdns.org:41965/udp/225.1.2.248:30120
+#EXTINF:-1 tvg-id="VTV 3" tvg-logo="http://ia601504.us.archive.org/17/items/LOGOTV_201701/VTV3_HD.png" group-title="Kênh VN",VTV3 HD
+http://mytv.duckdns.org:41965/udp/225.1.2.247:30120
+#EXTINF:-1 tvg-id="VTV 3" tvg-logo="http://ia601504.us.archive.org/17/items/LOGOTV_201701/VTV3_HD.png" group-title="Kênh VN",VTV3 HD
+http://mytv.duckdns.org:41966/rtp/232.84.1.118:10260
+#EXTINF:-1 tvg-id="VTV 2" tvg-logo="http://ia601504.us.archive.org/17/items/LOGOTV_201701/VTV2.png" group-title="Kênh VN",VTV 2
+http://mytv.duckdns.org:41965/udp/225.1.2.14:30120
+#EXTINF:-1 tvg-id="VTV 6 HD" tvg-logo="http://ia601504.us.archive.org/17/items/LOGOTV_201701/VTV6_HD.png" group-title="Kênh VN",VTV 6 HD
+http://mytv.duckdns.org:41965/udp/225.1.2.244:30120
+#EXTINF:-1 tvg-id="VTV 6 HD" tvg-logo="http://ia601504.us.archive.org/17/items/LOGOTV_201701/VTV6_HD.png" group-title="Kênh VN",VTV 6 HD
+http://mytv.duckdns.org:41966/rtp/232.84.1.119:10266
+#EXTINF:-1 tvg-id="VTV 8" tvg-logo="http://ia601504.us.archive.org/17/items/LOGOTV_201701/vtv8.jpg" group-title="Kênh VN",VTV 8
+http://mytv.duckdns.org:41965/udp/225.1.2.142:30120
+#EXTINF:-1 tvg-id="VTV9" tvg-logo="http://ia601504.us.archive.org/17/items/LOGOTV_201701/VTV9.png" group-title="Kênh VN",VTV9
+http://mytv.duckdns.org:41965/udp/225.1.2.142:30120
+#EXTINF:-1 tvg-id="VTC3" tvg-logo="http://static.fptplay.net.vn/static/img/share/channels/icon_channel_vtc3.png" group-title="Kênh VN",VTC3
+http://streams.iptv.zone:80/p/354817/c/113/u/109012/QrLDNf9Ed45q3qQ22yH38b0H31vwpY
+#EXTINF:-1 tvg-id="VTC3" tvg-logo="http://static.fptplay.net.vn/static/img/share/channels/icon_channel_vtc3.png" group-title="Kênh VN",VTC3
+http://mytv.duckdns.org:41966/rtp/232.84.1.81:8460
+#EXTINF:-1 tvg-id="VTC16" tvg-logo="http://www.mytv.com.vn/upload/kenh_list/vtc16_123x41.png" group-title="Kênh VN",VTC16
+http://mytv.duckdns.org:41965/udp/225.1.2.190:30120
+#EXTINF:-1 tvg-id="GEM TV" tvg-logo="http://ia601504.us.archive.org/17/items/LOGOTV_201701/gemtv.png" group-title="Kênh VN",GemTV
+http://mytv.duckdns.org:41966/stream/service/dbfdba07d754bdfc2931dfc2c2d6a4de?ticket=850E13EEE40554B4C36CA71E3182F16F350078A8
+#EXTINF:-1 tvg-id="HTV 2" tvg-logo="http://ia601504.us.archive.org/17/items/LOGOTV_201701/HTV7.png" group-title="Kênh VN",HTV2
+http://mytv.duckdns.org:41965/udp/225.1.1.193:30120
+#EXTINF:-1 tvg-id="HTV 7" tvg-logo="http://ia601504.us.archive.org/17/items/LOGOTV_201701/HTV7.png" group-title="Kênh VN",HTV7
+http://mytv.duckdns.org:41965/udp/225.1.1.191:30120
+#EXTINF:-1 tvg-id="HTV 9 HD" tvg-logo="http://ia601504.us.archive.org/17/items/LOGOTV_201701/HTV9_HD.png" group-title="Kênh VN",HTV9 HD
+http://mytv.duckdns.org:41965/udp/225.1.1.189:30120
+#EXTINF:-1 tvg-id="HTVC Thuần Việt HD" tvg-logo="http://ia601504.us.archive.org/17/items/LOGOTV_201701/HTVC_Thuan_Viet.png" group-title="Kênh VN",Thuần Việt
+http://mytv.duckdns.org:41965/udp/225.1.1.185:30120
+#EXTINF:-1 tvg-id="HTVC - Phim" tvg-logo="http://img.hplus.com.vn/460x260/poster/2018/04/19/878136-phimHD_stroke.png" group-title="Kênh VN",HTVC - Phim
+http://mytv.duckdns.org:41965/udp/225.1.1.183:30120
+#EXTINF:-1 tvg-id="Vinh_Long_TV1" tvg-logo="http://ia601504.us.archive.org/17/items/LOGOTV_201701/Vinh_Long_TV1.png" group-title="Kênh VN",THVL1
+http://mytv.duckdns.org:41965/udp/225.1.1.155:30120
+#EXTINF:-1 tvg-id="Vinh_Long_TV2" tvg-logo="http://ia601504.us.archive.org/17/items/LOGOTV_201701/Vinh_Long_TV2.png" group-title="Kênh VN",THVL2
+http://mytv.duckdns.org:41965/udp/225.1.1.154:30120
+#EXTINF:-1 tvg-id="Babi Tv" tvg-logo="https://vignette.wikia.nocookie.net/logosfakeped/images/e/eb/Babytv_fox_font.png/revision/latest?cb=20140203022623" group-title="Kênh Thiếu Nhi",Babi Tv
+http://mytv.duckdns.org:41965/udp/225.1.2.147:30120
+#EXTINF:-1 tvg-id="Disney XD" tvg-logo="https://www.directv.com/images/logos/channels/dark/large/257.png" group-title="Kênh Thiếu Nhi",Disney XD
+http://vapi.vaders.tv/play/52253.ts?token=eyJ1c2VybmFtZSI6InBvaXNvbnhhIiwicGFzc3dvcmQiOiJhMzMxNjU0NCJ9
+#EXTINF:-1 tvg-id="Boomerang" tvg-logo="https://www.directv.com/images/logos/channels/dark/large/257.png" group-title="Kênh Thiếu Nhi",Boomerang
+http://vapi.vaders.tv/play/39331.ts?token=eyJ1c2VybmFtZSI6InBvaXNvbnhhIiwicGFzc3dvcmQiOiJhMzMxNjU0NCJ9
+#EXTINF:-1 tvg-id="Animal Planet" tvg-logo="http://ia601504.us.archive.org/17/items/LOGOTV_201701/Animal_Planet.png" group-title="Kênh Quốc Tế",Animal Planet
+http://mytv.duckdns.org:41965/udp/225.1.1.231:30120
+#EXTINF:-1 tvg-id="Asian Food Channel HD" tvg-logo="http://ia601504.us.archive.org/17/items/LOGOTV_201701/Asian_Food_Channel_HD.png" group-title="Kênh Quốc Tế",Asian Food Channel HD
+http://mytv.duckdns.org:41965/udp/225.1.1.198:30120
+#EXTINF:-1 tvg-id="AXN" tvg-logo="http://ia601504.us.archive.org/17/items/LOGOTV_201701/AXN.png" group-title="Kênh Quốc Tế",AXN
+http://mytv.duckdns.org:41965/udp/225.1.2.225:30120
+#EXTINF:-1 tvg-id="Cartoon Network" tvg-logo="http://ia601504.us.archive.org/17/items/LOGOTV_201701/Cartoon_Network.png" group-title="Kênh Thiếu Nhi",Cartoon Network
+http://mytv.duckdns.org:41965/udp/225.1.2.231:30120
+#EXTINF:-1 tvg-id="Da Vinci Learning" tvg-logo="http://ia601504.us.archive.org/17/items/LOGOTV_201701/Da_Vinci_Learning.png" group-title="Kênh Quốc Tế",Da Vinci Learning
+http://mytv.duckdns.org:41965/udp/225.1.2.253:30120
+#EXTINF:-1 tvg-id="Discovery Channel" tvg-logo="http://ia601504.us.archive.org/17/items/LOGOTV_201701/Discovery_Channel.png" group-title="Kênh Quốc Tế",Discovery
+http://mytv.duckdns.org:41965/udp/225.1.2.158:30120
+#EXTINF:-1 tvg-id="Disney Channel" tvg-logo="http://ia601504.us.archive.org/17/items/LOGOTV_201701/Disney_Channel.png" group-title="Kênh Thiếu Nhi",Disney Channel
+http://mytv.duckdns.org:41965/udp/225.1.2.158:30120
+#EXTINF:-1 tvg-id="DISNEY JUNIOR" tvg-logo="http://ia601504.us.archive.org/17/items/LOGOTV_201701/Disney_Junior.png" group-title="Kênh Thiếu Nhi",Disney Junior
+http://mytv.duckdns.org:41965/udp/225.1.1.233:30120
+#EXTINF:-1 tvg-id="Kid Movies" tvg-logo="http://daily-devotional.org/wp-content/uploads/2016/10/15517160600_8f5cdf7816_o.png" group-title="Kênh Thiếu Nhi",Kid Movies
+http://p4.giffy.be:8080/live/Manu/12345/52153.ts
+#EXTINF:-1 tvg-id="Diva Universal" tvg-logo="http://ia601504.us.archive.org/17/items/LOGOTV_201701/DivaHd.png" group-title="Kênh Quốc Tế",Diva HD
+http://mytv.duckdns.org:41965/udp/225.1.1.199:30120
+#EXTINF:-1 tvg-id="Fashion" tvg-logo="http://ia601504.us.archive.org/17/items/LOGOTV_201701/Fashion.png" group-title="Kênh Quốc Tế",Fashion
+http://mytv.duckdns.org:41965/udp/225.1.2.227:30120
+#EXTINF:-1 tvg-id="Fox" tvg-logo="http://ia601504.us.archive.org/17/items/LOGOTV_201701/FOX.png" group-title="Kênh Quốc Tế",FOX
+http://mytv.duckdns.org:41965/udp/225.1.1.51:30120
+#EXTINF:-1 tvg-id="FOX Life HD" tvg-logo="http://ia601504.us.archive.org/17/items/LOGOTV_201701/FOX.png" group-title="Kênh Quốc Tế",FOX Life HD
+http://mytv.duckdns.org:41965/udp/225.1.2.236:30120
+#EXTINF:-1 tvg-id=",Warner TV" tvg-logo="https://vignette.wikia.nocookie.net/logopedia/images/f/f7/Warner_Bros_Pictures_Logo_1998-1999.png/revision/latest?cb=20170208160137" group-title="Kênh Quốc Tế",Warner TV
+http://mytv.duckdns.org:41965/udp/225.1.1.140:30120
+#EXTINF:-1 tvg-id=",Kix" tvg-logo="https://lh3.googleusercontent.com/-BaIBe8VD33g/Wm68rguDAsI/AAAAAAAADpU/x7hIEVaIeh0TmM2K7FE2XAVENMCBLzs6wCHMYCw/s640/images%252829%2529.jpg" group-title="Kênh Quốc Tế",Kix
+http://mytv.duckdns.org:41965/udp/225.1.2.145:30120
+#EXTINF:-1 tvg-id="FOX Movies" tvg-logo="https://vignette.wikia.nocookie.net/logopedia/images/e/e3/Fox_Moxie_Channel.png/revision/latest?cb=20100323110707" group-title="Kênh Quốc Tế",FOX Movies
+http://mytv.duckdns.org:41965/udp/225.1.2.238:30120
+#EXTINF:-1 tvg-id="Cinema World" tvg-logo="https://i.pinimg.com/originals/b0/24/bf/b024bfb14a9538a3fdf18d804f2a23e6.jpg" group-title="Kênh Quốc Tế",Cinema World
+http://mytv.duckdns.org:41965/udp/225.1.1.142:30120
+#EXTINF:-1 tvg-id="FOX Sports" tvg-logo="http://ia601504.us.archive.org/17/items/LOGOTV_201701/FOX_SPORTS.png" group-title="Kênh Quốc Tế",FOX Sports HD
+http://mytv.duckdns.org:41965/udp/225.1.2.228:30120
+#EXTINF:-1 tvg-id="FOX Sports 2 HD" tvg-logo="http://ia601504.us.archive.org/17/items/LOGOTV_201701/FOX_SPORTS_2.png" group-title="Kênh Quốc Tế",FOX Sports 2 HD
+http://mytv.duckdns.org:41965/udp/225.1.1.108:30120
+#EXTINF:-1 tvg-id="FOX Sports 3 HD" tvg-logo="https://vignette.wikia.nocookie.net/logopedia/images/c/ce/Fox_Sports_3_HD_logo.png/revision/latest?cb=20160425194522" group-title="Kênh Quốc Tế",FOX Sports 3 HD
+http://mytv.duckdns.org:41965/udp/225.1.2.243:30120
+#EXTINF:-1 tvg-id="HBO" tvg-logo="http://ia601504.us.archive.org/17/items/LOGOTV_201701/HBO.png" group-title="Kênh Quốc Tế",HBO
+http://mytv.duckdns.org:41965/udp/225.1.2.232:30120
+#EXTINF:-1 tvg-id="National Geographic HD" tvg-logo="http://ia601504.us.archive.org/17/items/LOGOTV_201701/NGC_HD.png" group-title="Kênh Quốc Tế",National Geographic HD
+http://mytv.duckdns.org:41965/udp/225.1.2.234:30120
+#EXTINF:-1 tvg-id="NHK" tvg-logo="http://ia601504.us.archive.org/17/items/LOGOTV_201701/NHK.png" group-title="Kênh Quốc Tế",NHK WORLD
+http://mytv.duckdns.org:41965/udp/225.1.1.47:30120
+#EXTINF:-1 tvg-id="Outdoor Channel HD" tvg-logo="http://ia601504.us.archive.org/17/items/LOGOTV_201701/Outdoor_Channel_HD.png" group-title="Kênh Quốc Tế",Outdoor Channel HD
+http://mytv.duckdns.org:41965/udp/225.1.2.214:30120
+#EXTINF:-1 tvg-id="Red by HBO" tvg-logo="http://ia601504.us.archive.org/17/items/LOGOTV_201701/REDBYHBO.png" group-title="Kênh Quốc Tế",Red by HBO
+http://mytv.duckdns.org:41965/udp/225.1.1.89:30120
+#EXTINF:-1 tvg-id="Max by HBO" tvg-logo="http://lichtruyenhinh.com/wp-content/uploads/2018/04/MAX-by-HBO-www.lichtruyenhinh.com_-310x165.jpg" group-title="Kênh Quốc Tế",Max by HBO
+http://mytv.duckdns.org:41965/udp/225.1.2.91:30120
+#EXTINF:-1 tvg-id="Sky Sports Premier League HD" tvg-logo="https://www.sportsnewsireland.com/wp-content/uploads/2017/10/Sky-Sports.jpg" group-title="Thể Thao",Sky Sports Premier League HD
+http://vapi.vaders.tv/play/2482.ts?token=eyJ1c2VybmFtZSI6InBvb3IiLCJwYXNzd29yZCI6InJpY2gifQ==
+#EXTINF:-1 tvg-id="Sky Sports Football HD" tvg-logo="https://archive.org/services/img/SkySportsFootball_201708" group-title="Thể Thao",Sky Sports Football HD
+http://vapi.vaders.tv/play/42360.ts?token=eyJ1c2VybmFtZSI6InBvb3IiLCJwYXNzd29yZCI6InJpY2gifQ==
+#EXTINF:-1 tvg-id="Sky Sports Mix HD" tvg-logo="https://archive.org/services/img/SkySportsFootball_201708" group-title="Thể Thao",Sky Sports Mix HD
+http://vapi.vaders.tv/play/37235.ts?token=eyJ1c2VybmFtZSI6InBvb3IiLCJwYXNzd29yZCI6InJpY2gifQ==
+#EXTINF:-1 tvg-id=",BT Sports 1 HD" tvg-logo="http://i.imgur.com/F2R303x.png" group-title="Thể Thao",BT Sports 1 HD
+http://vapi.vaders.tv/play/2487.ts?token=eyJ1c2VybmFtZSI6InBvb3IiLCJwYXNzd29yZCI6InJpY2gifQ==
+#EXTINF:-1 tvg-id=",BT Sports 2 HD" tvg-logo="https://3.bp.blogspot.com/-MZDBdIuELF0/WhOk48IxLPI/AAAAAAAAARA/B8DFgzpSqZ4LeG299_8rv68nyEyxZKpgwCLcBGAs/w1200-h630-p-k-no-nu/vsuvvu1433963716.png" group-title="Thể Thao",BT Sports 2 HD
+http://vapi.vaders.tv/play/2488.ts?token=eyJ1c2VybmFtZSI6InBvb3IiLCJwYXNzd29yZCI6InJpY2gifQ==
+#EXTINF:-1 tvg-id=",BT Sports 3 HD" tvg-logo="https://archive.org/services/img/BtSport3Hd" group-title="Thể Thao",BT Sports 3 HD
+http://vapi.vaders.tv/play/2489.ts?token=eyJ1c2VybmFtZSI6InBvb3IiLCJwYXNzd29yZCI6InJpY2gifQ==
+#EXTINF:-1 tvg-id=",BT Sports ESPN HD" tvg-logo="https://i2.wp.com/seenit.co.uk/wp-content/uploads/BT-ESPN.png?resize=380%2C220" group-title="Thể Thao",BT Sports ESPN HD
+http://vapi.vaders.tv/play/39831.ts?token=eyJ1c2VybmFtZSI6InBvb3IiLCJwYXNzd29yZCI6InJpY2gifQ==
+#EXTINF:-1 tvg-id=",Eurosport 1 HD" tvg-logo="https://vignette.wikia.nocookie.net/logopedia/images/6/69/Eurosport_HD_logo_2009.svg/revision/latest?cb=20151013122853" group-title="Thể Thao",Eurosport 1 HD
+http://vapi.vaders.tv/play/19293.ts?token=eyJ1c2VybmFtZSI6InBvb3IiLCJwYXNzd29yZCI6InJpY2gifQ==
+#EXTINF:-1 tvg-id=",Eurosport 2 HD" tvg-logo="https://vignette.wikia.nocookie.net/logopedia/images/6/69/Eurosport_HD_logo_2009.svg/revision/latest?cb=20151013122853" group-title="Thể Thao",Eurosport 2 HD
+http://vapi.vaders.tv/play/19294.ts?token=eyJ1c2VybmFtZSI6InBvb3IiLCJwYXNzd29yZCI6InJpY2gifQ==
+#EXTINF:-1 tvg-id=",NBC Sports Network HD" tvg-logo="https://vignette.wikia.nocookie.net/logopedia/images/3/31/NBCSports-Network_POS.png/revision/latest?cb=20150824211133" group-title="Thể Thao",NBC Sports Network HD
+http://vapi.vaders.tv/play/2562.ts?token=eyJ1c2VybmFtZSI6InBvb3IiLCJwYXNzd29yZCI6InJpY2gifQ==
+#EXTINF:-1 tvg-id=",BeIN Sports USA HD" tvg-logo="http://2.bp.blogspot.com/-QnsbGgKZh98/Vk9aSUtu0YI/AAAAAAAAC28/GQGb4b9vmuk/s1600/BeinSportHDusa.png" group-title="Thể Thao",BeIN Sports USA HD
+http://vapi.vaders.tv/play/2563.ts?token=eyJ1c2VybmFtZSI6InBvb3IiLCJwYXNzd29yZCI6InJpY2gifQ==
+#EXTINF:-1 tvg-id=",BEIN Laliga HD" tvg-logo="http://adminweb.onlycable.net/img/Canale/small/LA-LIGA-HD/LA-LIGA-HD_.png" group-title="Thể Thao",BEIN Laliga HD
+http://vapi.vaders.tv/play/39855.ts?token=eyJ1c2VybmFtZSI6InBvb3IiLCJwYXNzd29yZCI6InJpY2gifQ==
+#EXTINF:-1 tvg-id=",Fox Sports 1 HD" tvg-logo="https://www.imsa.com/sites/default/files/fs1_newlogo_newsite.png" group-title="Thể Thao",Fox Sports 1 HD
+http://vapi.vaders.tv/play/2568.ts?token=eyJ1c2VybmFtZSI6InBvb3IiLCJwYXNzd29yZCI6InJpY2gifQ==
+#EXTINF:-1 tvg-id=",Fox Sports 2 HD" tvg-logo="https://imsatv.imsa.com/sites/default/files/fs2_newlogo_newsite.png" group-title="Thể Thao",Fox Sports 2 HD
+http://vapi.vaders.tv/play/2569.ts?token=eyJ1c2VybmFtZSI6InBvb3IiLCJwYXNzd29yZCI6InJpY2gifQ==
+#EXTINF:-1 tvg-id=",ESPN HD" tvg-logo="http://assets.stickpng.com/thumbs/5847f1b0cef1014c0b5e485d.png" group-title="Thể Thao",ESPN HD
+http://vapi.vaders.tv/play/2565.ts?token=eyJ1c2VybmFtZSI6InBvb3IiLCJwYXNzd29yZCI6InJpY2gifQ==
+#EXTINF:-1 tvg-id=",ESPN 2 HD" tvg-logo="http://assets.stickpng.com/thumbs/5847f1b0cef1014c0b5e485d.png" group-title="Thể Thao",ESPN 2 HD
+http://vapi.vaders.tv/play/2566.ts?token=eyJ1c2VybmFtZSI6InBvb3IiLCJwYXNzd29yZCI6InJpY2gifQ==
+#EXTINF:-1 tvg-id=",ESPN U HD" tvg-logo="http://www.gazellegroup.com/main/cbi/wp-content/uploads/sites/43/2016/02/ESPNULogo-full.png" group-title="Thể Thao",ESPN U HD
+http://vapi.vaders.tv/play/2567.ts?token=eyJ1c2VybmFtZSI6InBvb3IiLCJwYXNzd29yZCI6InJpY2gifQ==
+#EXTINF:-1 tvg-id=",WWE" tvg-logo="https://pbs.twimg.com/profile_images/742766007387881476/qMUbmBmS_400x400.jpg" group-title="Thể Thao",WWE
+http://vapi.vaders.tv/play/3047.ts?token=eyJ1c2VybmFtZSI6InBvb3IiLCJwYXNzd29yZCI6InJpY2gifQ==
+#EXTINF:-1 tvg-id=",Tennis Channel HD" tvg-logo="http://pmcdeadline2.files.wordpress.com/2012/08/tennis-channel__120824220946-200x276.jpg?w=200&h=276" group-title="Thể Thao",Tennis Channel HD
+http://vapi.vaders.tv/play/40876.ts?token=eyJ1c2VybmFtZSI6InBvb3IiLCJwYXNzd29yZCI6InJpY2gifQ==
+#EXTINF:-1 tvg-id=",BEIN SPORTS 1" tvg-logo="https://www.telstra.com.au/content/dam/tcom/personal/entertainment/images-c/bein-sport-v1.png" group-title="Thể Thao",BEIN SPORTS 1
+http://vapi.vaders.tv/play/39377.ts?token=eyJ1c2VybmFtZSI6InBvb3IiLCJwYXNzd29yZCI6InJpY2gifQ==
+#EXTINF:-1 tvg-id=",BEIN SPORTS 2" tvg-logo="https://www.telstra.com.au/content/dam/tcom/personal/entertainment/images-c/bein-sport-v1.png" group-title="Thể Thao",BEIN SPORTS 2
+http://vapi.vaders.tv/play/39378.ts?token=eyJ1c2VybmFtZSI6InBvb3IiLCJwYXNzd29yZCI6InJpY2gifQ==
+#EXTINF:-1 tvg-id=",BEIN SPORTS 3" tvg-logo="https://www.telstra.com.au/content/dam/tcom/personal/entertainment/images-c/bein-sport-v1.png" group-title="Thể Thao",BEIN SPORTS 3
+http://vapi.vaders.tv/play/39379.ts?token=eyJ1c2VybmFtZSI6InBvb3IiLCJwYXNzd29yZCI6InJpY2gifQ==
+#EXTINF:-1 tvg-id=",BEIN SPORTS 4" tvg-logo="https://www.telstra.com.au/content/dam/tcom/personal/entertainment/images-c/bein-sport-v1.png" group-title="Thể Thao",BEIN SPORTS 4
+http://vapi.vaders.tv/play/39380.ts?token=eyJ1c2VybmFtZSI6InBvb3IiLCJwYXNzd29yZCI6InJpY2gifQ==
+#EXTINF:-1 tvg-id=",BEIN SPORTS 5" tvg-logo="https://www.telstra.com.au/content/dam/tcom/personal/entertainment/images-c/bein-sport-v1.png" group-title="Thể Thao",BEIN SPORTS 5
+http://vapi.vaders.tv/play/39381.ts?token=eyJ1c2VybmFtZSI6InBvb3IiLCJwYXNzd29yZCI6InJpY2gifQ==
+#EXTINF:-1 tvg-id=",BEIN SPORTS 6" tvg-logo="https://www.telstra.com.au/content/dam/tcom/personal/entertainment/images-c/bein-sport-v1.png" group-title="Thể Thao",BEIN SPORTS 6
+http://vapi.vaders.tv/play/39382.ts?token=eyJ1c2VybmFtZSI6InBvb3IiLCJwYXNzd29yZCI6InJpY2gifQ==
+#EXTINF:-1 tvg-id=",BEIN SPORTS 7" tvg-logo="https://www.telstra.com.au/content/dam/tcom/personal/entertainment/images-c/bein-sport-v1.png" group-title="Thể Thao",BEIN SPORTS 7
+http://vapi.vaders.tv/play/39383.ts?token=eyJ1c2VybmFtZSI6InBvb3IiLCJwYXNzd29yZCI6InJpY2gifQ==
+#EXTINF:-1 tvg-id=",BEIN SPORTS 8" tvg-logo="https://www.telstra.com.au/content/dam/tcom/personal/entertainment/images-c/bein-sport-v1.png" group-title="Thể Thao",BEIN SPORTS 8
+http://vapi.vaders.tv/play/39384.ts?token=eyJ1c2VybmFtZSI6InBvb3IiLCJwYXNzd29yZCI6InJpY2gifQ==
+#EXTINF:-1 tvg-id=",BEIN SPORTS 9" tvg-logo="https://www.telstra.com.au/content/dam/tcom/personal/entertainment/images-c/bein-sport-v1.png" group-title="Thể Thao",BEIN SPORTS 9
+http://vapi.vaders.tv/play/39385.ts?token=eyJ1c2VybmFtZSI6InBvb3IiLCJwYXNzd29yZCI6InJpY2gifQ==
+#EXTINF:-1 tvg-id=",BEIN SPORTS 11" tvg-logo="https://www.telstra.com.au/content/dam/tcom/personal/entertainment/images-c/bein-sport-v1.png" group-title="Thể Thao",BEIN SPORTS 11
+http://vapi.vaders.tv/play/39386.ts?token=eyJ1c2VybmFtZSI6InBvb3IiLCJwYXNzd29yZCI6InJpY2gifQ==
+#EXTINF:-1 tvg-id=",BEIN SPORTS 11" tvg-logo="https://www.telstra.com.au/content/dam/tcom/personal/entertainment/images-c/bein-sport-v1.png" group-title="Thể Thao",BEIN SPORTS 11
+http://vapi.vaders.tv/play/40879.ts?token=eyJ1c2VybmFtZSI6InBvb3IiLCJwYXNzd29yZCI6InJpY2gifQ==
+#EXTINF:-1 tvg-id=",BEIN SPORTS 10" tvg-logo="https://www.telstra.com.au/content/dam/tcom/personal/entertainment/images-c/bein-sport-v1.png" group-title="Thể Thao",BEIN SPORTS 10
+http://vapi.vaders.tv/play/40880.ts?token=eyJ1c2VybmFtZSI6InBvb3IiLCJwYXNzd29yZCI6InJpY2gifQ==
+#EXTINF:-1 tvg-id=",BEIN SPORTS Reload" tvg-logo="https://www.telstra.com.au/content/dam/tcom/personal/entertainment/images-c/bein-sport-v1.png" group-title="Thể Thao",BEIN SPORTS Reload
+http://185.152.66.33:2082/live/treal/treal/222.m3u8?token=TEZaVRJaRAMSBlQBBVNSUlVXA1ZUBVVcAgcEAQABVVAGUFYABQIFDVIXGhVEEUIGBAxsDQZEWFZUVxsQTERWQ2gNVhZbEFULBBcaFUMMXQZHWwNIQBYLAERfFQMABgIIFUgQURlGA0teVFpoUwBGCgYEEV4MEw4ISkdYXGZTVlxWClYWWxBWGxwXX0RHRwpBJg1cEQYgDgUUABd7V1QdExtGUF0VQAdNVRcMFQRRCVZHTREHDRMMEBQcFQgbYmATG0ZXTBVXCEpZWlgVDUddUBBZEUhADxE7FABERktSUlxSFhAOQwJEFRJYV09oBl8NCwRQEAsJDBdEXxUDGxsRXFgKW0AOQDlJWVEUDRVWAFtVVBEZ
+#EXTINF:-1 tvg-id=",Ten 1" tvg-logo="http://www.firstonetv.net/images/logos/in/SONYTEN1.png" group-title="Thể Thao",Ten 1
+http://vapi.vaders.tv/play/79282.ts?token=eyJ1c2VybmFtZSI6InBvb3IiLCJwYXNzd29yZCI6InJpY2gifQ==
+#EXTINF:-1 tvg-id=",Ten 2" tvg-logo="https://vignette.wikia.nocookie.net/logopedia/images/d/d6/ST2HD.png/revision/latest?cb=20171031110346" group-title="Thể Thao",Ten 2
+http://vapi.vaders.tv/play/79283.ts?token=eyJ1c2VybmFtZSI6InBvb3IiLCJwYXNzd29yZCI6InJpY2gifQ==
+#EXTINF:-1 tvg-id=",Ten 3" tvg-logo="http://www.firstonetv.net/images/logos/in/SONYTEN3.png" group-title="Thể Thao",Ten 3
+http://vapi.vaders.tv/play/79284.ts?token=eyJ1c2VybmFtZSI6InBvb3IiLCJwYXNzd29yZCI6InJpY2gifQ==
+#EXTINF:-1 tvg-id="BBC earth" tvg-logo="https://upload.wikimedia.org/wikipedia/en/4/44/BBC_Earth_logo.png" group-title="Kênh Quốc Tế",BBC earth
+http://mytv.duckdns.org:41965/udp/225.1.2.25:30120
+#EXTINF:-1 tvg-id="Discovery Asia" tvg-logo="http://htvc.vn/uploads/editor/images/Logo%20Discovery-Asia%201.png" group-title="Kênh Quốc Tế",Discovery Asia
+http://mytv.duckdns.org:41965/udp/225.1.2.223:30120
+#EXTINF:-1 tvg-id="Australia Plus" tvg-logo="hhttps://www.abcfriends.org.au/wp-content/uploads/2016/08/australia-plus-logo.png" group-title="Kênh Quốc Tế",Australia Plus
+http://mytv.duckdns.org:41965/udp/225.1.2.21:30120
+#EXTINF:-1 tvg-id="BBC Lifestyle" tvg-logo="http://img.hplus.com.vn/728x409/banner/2017/08/09/733325-BBC-Lifestyle.png" group-title="Kênh Quốc Tế",BBC Lifestyle
+http://mytv.duckdns.org:41965/udp/225.1.2.52:30120
+#EXTINF:-1 tvg-id="CNN" tvg-logo="http://logos-download.com/wp-content/uploads/2016/02/CNN-Travel-logo.png" group-title="Kênh Quốc Tế",CNN
+http://mytv.duckdns.org:41965/udp/225.1.1.242:30120
+#EXTINF:-1 tvg-id="Channel [V] HD" tvg-logo="https://vignette.wikia.nocookie.net/logopedia/images/4/49/Channel_v-300x255.png/revision/latest?cb=20120829023708" group-title="Kênh VN",Channel [V] HD
+http://mytv.duckdns.org:41965/udp/225.1.1.188:30120
+#EXTINF:-1 tvg-id="Kenh truc tiep Bóng Đá" tvg-logo="http://www.gmodules.com/gadgets/proxy?container=ig&url=http://img.hplus.com.vn/355x200/poster/2016/07/15/901788-phim.hay_.png" group-title="Thể Thao",Kenh truc tiep Bóng Đá
+http://mytv.duckdns.org:41965/udp/225.1.1.13:30120
+#EXTINF:-1 tvg-id="Binh Dinh" tvg-logo="https://fs.petrolimex.com.vn/ThumbnailBigPngs/6783DC1271FF449E95B74A9520964169/0/600/315/99C633E617F94531AC07604AB9AFA7ED/0/410869/Petrolimex-Binh-Dinh-truyen-thong-Golive-Du-an-Hoa-don-dien-tu--crop--btwm.png" group-title="Kênh VN",Binh Dinh
+http://mytv.duckdns.org:41965/udp/225.1.1.145:30120
+#EXTINF:-1 tvg-id=",UFC TV" tvg-logo="http://media.ufc.tv/logos/logo-baja.png" group-title="Thể Thao",UFC TV
+http://vapi.vaders.tv/play/42469.ts?token=eyJ1c2VybmFtZSI6InBvb3IiLCJwYXNzd29yZCI6InJpY2gifQ==
+#EXTINF:-1 tvg-id="Sky Sports F1 HD" tvg-logo="https://archive.org/services/img/SkySportsFootball_201708" group-title="Thể Thao",Sky Sports F1 HD
+http://vapi.vaders.tv/play/79334.ts?token=eyJ1c2VybmFtZSI6InBvb3IiLCJwYXNzd29yZCI6InJpY2gifQ==F
