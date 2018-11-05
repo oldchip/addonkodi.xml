@@ -1,0 +1,414 @@
+#EXTM3U
+
+#EXTINF:-1 tvg-name="VTV 1" tvg-logo="http://ia801903.us.archive.org/8/items/LOGOTV_201701/VTV1_HD.png" group-title="VTV",VTV1 HD
+http://mitme.dynu.net:14285/rtp/232.84.1.117:10254
+
+#EXTINF:-1 tvg-name="VTV 2" tvg-logo="http://ia801903.us.archive.org/8/items/LOGOTV_201701/VTV2.png" group-title="VTV",VTV 2
+http://mitme.dynu.net:14285/rtp/232.84.2.31:10594
+
+#EXTINF:-1 tvg-name="VTV 3" tvg-logo="http://ia801903.us.archive.org/8/items/LOGOTV_201701/VTV3_HD.png" group-title="VTV",VTV3 HD
+http://mitme.dynu.net:14285/rtp/232.84.1.118:10260
+
+#EXTINF:-1 tvg-name="VTV4" tvg-logo="http://ia801903.us.archive.org/8/items/LOGOTV_201701/VTV4.png" group-title="VTV",VTV4
+http://mitme.dynu.net:14285/rtp/232.84.2.32:10600
+
+#EXTINF:-1 tvg-name="VTV5" tvg-logo="http://ia801903.us.archive.org/8/items/LOGOTV_201701/VTV5.png" group-title="VTV",VTV5
+http://mitme.dynu.net:14285/rtp/232.84.2.33:10606
+
+#EXTINF:-1 tvg-name="VTV 6 HD" tvg-logo="http://ia801903.us.archive.org/8/items/LOGOTV_201701/VTV6_HD.png" group-title="VTV",VTV 6 HD
+http://mitme.dynu.net:14285/rtp/232.84.1.119:10266
+
+#EXTINF:-1 tvg-name="VTV 8" tvg-logo="http://ia801903.us.archive.org/8/items/LOGOTV_201701/vtv8.jpg" group-title="VTV",VTV 8
+http://mitme.dynu.net:14285/rtp/232.84.2.34:10612
+
+#EXTINF:-1 tvg-name="VTV9" tvg-logo="http://ia801903.us.archive.org/8/items/LOGOTV_201701/VTV9.png" group-title="VTV",VTV9
+http://mitme.dynu.net:14285/rtp/232.84.2.35:10618
+
+#EXTINF:-1 tvg-name="BabyTV" tvg-logo="https://ia801903.us.archive.org/8/items/LOGOTV_201701/BabyTV.png" group-title="VTV",BabyTV HD
+http://mitme.dynu.net:14285/rtp/232.84.2.36:10624
+
+
+#EXTINF:-1 tvg-name="VTVcab 1 Giai Tri TV" tvg-logo="http://ia801903.us.archive.org/8/items/LOGOTV_201701/VTVCab1_Giai_Tri_TV.png" group-title="VTVcab",VTVcab 1 - Giai Tri TV
+http://mitme.dynu.net:14285/rtp/232.84.1.143:8832
+
+#EXTINF:-1 tvg-name="VTVcab 2 Phim Viet" tvg-logo="http://ia801903.us.archive.org/8/items/LOGOTV_201701/VTVCab2_Phim_Viet.png" group-title="VTVcab",VTVcab 2 - Phim Viet
+http://mitme.dynu.net:14285/rtp/232.84.1.168:8982
+
+#EXTINF:-1 tvg-name="VTVcab 3 The Thao TV HD" tvg-logo="http://ia801903.us.archive.org/8/items/LOGOTV_201701/VTVCab3_The_thao_TV.png" group-title="VTVcab",VTVcab 3 - The Thao TV HD
+http://mitme.dynu.net:14285/rtp/232.84.1.207:9216
+
+#EXTINF:-1 tvg-name="VTVcab 3 The Thao TV" tvg-logo="http://ia801903.us.archive.org/8/items/LOGOTV_201701/VTVCab3_The_thao_TV.png" group-title="VTVcab",VTVcab 3 - The Thao TV
+http://mitme.dynu.net:14285/rtp/232.84.1.208:9222
+
+#EXTINF:-1 tvg-name="VTVcab 4" tvg-logo="http://ia801903.us.archive.org/8/items/LOGOTV_201701/VTVCab4_Kenh_17.png" group-title="VTVcab",VTVcab 4
+http://mitme.dynu.net:14285/rtp/232.84.1.169:8988
+
+#EXTINF:-1 tvg-name="VTVcab 5 E Channe" tvg-logo="http://ia801903.us.archive.org/8/items/LOGOTV_201701/VTVCab5_E_Channel.png" group-title="VTVcab",VTVcab 5 - E Channe
+http://mitme.dynu.net:14285/rtp/232.84.1.193:9132
+
+#EXTINF:-1 tvg-name="VTVcab 6 Hay TVVTVcab 6 Hay TV" tvg-logo="http://ia801903.us.archive.org/8/items/LOGOTV_201701/VTVCab6_Hay_TV.png" group-title="VTVcab",VTVcab 6 - Hay TV
+http://mitme.dynu.net:14285/rtp/232.84.1.220:9294
+
+#EXTINF:-1 tvg-name="VTVcab 7 D Drama" tvg-logo="http://ia801903.us.archive.org/8/items/LOGOTV_201701/VTVCab7_Dramas.png" group-title="VTVcab",VTVcab 7 - D Drama
+http://mitme.dynu.net:14285/rtp/232.84.1.205:9204
+
+#EXTINF:-1 tvg-name="VTVcab 8 BiBi" tvg-logo="http://ia801903.us.archive.org/8/items/LOGOTV_201701/VTVCab8_BiBi.png" group-title="VTVcab",VTVcab 8 - BiBi
+http://mitme.dynu.net:14285/rtp/232.84.1.206:9210
+
+#EXTINF:-1 tvg-name="VTVcab 10 O2TV" tvg-logo="http://ia801903.us.archive.org/8/items/LOGOTV_201701/VTVCab10_O2TV.png" group-title="VTVcab",VTVcab 10 - O2TV
+http://mitme.dynu.net:14285/rtp/232.84.1.26:8130
+
+#EXTINF:-1 tvg-name="VTVcab 11" tvg-logo="http://ia801903.us.archive.org/8/items/LOGOTV_201701/vtvcab11-vgs-shop.jpg" group-title="VTVcab",VTVcab 11
+http://mitme.dynu.net:14285/rtp/232.84.1.229:9348
+
+#EXTINF:-1 tvg-name="VTVcab 12 - Style TV H" tvg-logo="http://ia801903.us.archive.org/8/items/LOGOTV_201701/VTVCab12_Style_TV.png" group-title="VTVcab",VTVcab 12 - Style TV H
+http://mitme.dynu.net:14285/rtp/232.84.1.244:9438
+
+#EXTINF:-1 tvg-name="VTVcab 14" tvg-logo="http://ia801903.us.archive.org/8/items/LOGOTV_201701/VTVCab14.png" group-title="VTVcab",VTVcab 14
+http://mitme.dynu.net:14285/rtp/232.84.1.140:10356
+
+#EXTINF:-1 tvg-name="VTVcab 17 Yeah1 TV" tvg-logo="http://ia801903.us.archive.org/8/items/LOGOTV_201701/VTVCab17_yeah1_TV.png" group-title="VTVcab",VTVcab 17-Yeah1 TV
+http://mitme.dynu.net:14285/rtp/232.84.1.217:9276
+
+#EXTINF:-1 tvg-name="VTVcab 20" tvg-logo="http://ia801903.us.archive.org/8/items/LOGOTV_201701/VTVCab20.png" group-title="VTVcab",VTVcab 20
+http://mitme.dynu.net:14285/rtp/232.84.1.245:10344
+
+#EXTINF:-1 tvg-name="HCaTV_HiTV" tvg-logo="http://ia801903.us.archive.org/8/items/LOGOTV_201701/HCaTV_HiTV.png" group-title="VTVcab",HCaTV - HITV
+http://mitme.dynu.net:14285/rtp/232.84.1.55:8310
+
+#EXTINF:-1 tvg-name="HCaTV HITV" tvg-logo="http://ia801903.us.archive.org/8/items/LOGOTV_201701/vovtv.png" group-title="VTV",VOVTV
+http://mitme.dynu.net:14285/rtp/232.84.1.46:8256
+
+#EXTINF:-1 tvg-name="AFC HD" tvg-logo="http://ia801903.us.archive.org/8/items/LOGOTV_201701/AfcHd.jpg" group-title="Qu?c t?",AFC HD
+http://mitme.dynu.net:14285/rtp/232.84.2.129:9570
+
+#EXTINF:-1 tvg-name="Animal Planet" tvg-logo="http://ia801903.us.archive.org/8/items/LOGOTV_201701/Animal-Planet.png" group-title="Qu?c t?",Animal Planet
+http://mitme.dynu.net:14285/rtp/232.84.2.147:10702
+
+#EXTINF:-1 tvg-name="Arirang" tvg-logo="http://ia801903.us.archive.org/8/items/LOGOTV_201701/arirang.png" group-title="Qu?c t?",Arirang
+http://mitme.dynu.net:14285/rtp/232.84.1.43:8238
+
+#EXTINF:-1 tvg-name="Cartoon Network" tvg-logo="http://ia801903.us.archive.org/8/items/LOGOTV_201701/Cartoon_Network.png" group-title="Qu?c t?",Cartoon Network
+http://mitme.dynu.net:14285/rtp/232.84.2.144:10684
+
+#EXTINF:-1 tvg-name="Channel News Asia" tvg-logo="http://ia801903.us.archive.org/8/items/LOGOTV_201701/Channel_NewsAsia.png" group-title="Qu?c t?",Channel News Asia
+http://mitme.dynu.net:14285/rtp/232.84.1.5:8004
+
+#EXTINF:-1 tvg-name="CNN" tvg-logo="http://ia801903.us.archive.org/8/items/LOGOTV_201701/CNN.png" group-title="Qu?c t?",CNN
+http://mitme.dynu.net:14285/rtp/232.84.2.126:8076
+
+#EXTINF:-1 tvg-name="Channel V HD" tvg-logo="http://ia801903.us.archive.org/8/items/LOGOTV_201701/Channel_V.png" group-title="Qu?c t?",Channel V
+http://mitme.dynu.net:14285/rtp/232.84.1.13:8052
+
+#EXTINF:-1 tvg-name="Davinci" tvg-logo="http://ia801903.us.archive.org/8/items/LOGOTV_201701/Da_Vinci_HD.png" group-title="Qu?c t?",Davinci
+http://mitme.dynu.net:14285/rtp/232.84.2.131:9582
+
+#EXTINF:-1 tvg-name="Discovery" tvg-logo="http://ia801903.us.archive.org/8/items/LOGOTV_201701/Discovery_Channel.png" group-title="Qu?c t?",Discovery
+http://mitme.dynu.net:14285/rtp/232.84.2.53:10528
+
+#EXTINF:-1 tvg-name="Disney Channel" tvg-logo="http://ia801903.us.archive.org/8/items/LOGOTV_201701/Disney_Channel.png" group-title="Qu?c t?",Disney Channel
+http://mitme.dynu.net:14285/rtp/232.84.2.143:10678
+
+#EXTINF:-1 tvg-name="Disney Junior" tvg-logo="http://ia801903.us.archive.org/8/items/LOGOTV_201701/Disney_Junior.png" group-title="Qu?c t?",Disney Junior
+http://mitme.dynu.net:14285/rtp/232.84.1.90:10398
+
+#EXTINF:-1 tvg-name="Diva HD" tvg-logo="http://ia801903.us.archive.org/8/items/LOGOTV_201701/DivaHd.png" group-title="Qu?c t?",Diva HD
+http://mitme.dynu.net:14285/rtp/232.84.2.130:9576
+
+#EXTINF:-1 tvg-name="DW HD" tvg-logo="http://ia801903.us.archive.org/8/items/LOGOTV_201701/DW-TV.png" group-title="Qu?c t?",DW HD
+http://mitme.dynu.net:14285/rtp/232.84.2.233:10416
+
+#EXTINF:-1 tvg-name="France24" tvg-logo="http://ia801903.us.archive.org/8/items/LOGOTV_201701/France_24_English.png" group-title="Qu?c t?",France24
+http://mitme.dynu.net:14285/rtp/232.84.2.135:9606
+
+#EXTINF:-1,Fashion TV (HD)
+http://mitme.dynu.net:14285/rtp/232.84.2.52:10522
+
+#EXTINF:-1,FOX Movies (HD)
+http://mitme.dynu.net:14285/rtp/232.84.1.77:8436
+
+#EXTINF:-1 tvg-name="FOX" tvg-logo="http://ia801903.us.archive.org/8/items/LOGOTV_201701/FOX.png" group-title="Qu?c t?",FOX
+http://mitme.dynu.net:14285/rtp/232.84.2.120:8448
+
+#EXTINF:-1 tvg-name="FOX Sports HD" tvg-logo="http://ia801903.us.archive.org/8/items/LOGOTV_201701/FOX_HD.png" group-title="Qu?c t?",FOX Sports HD
+http://mitme.dynu.net:14285/rtp/232.84.1.11:8040
+
+#EXTINF:-1 tvg-name="Fox Movies Premium" tvg-logo="http://ia801903.us.archive.org/8/items/LOGOTV_201701/FOXLife.png" group-title="Qu?c t?",Fox Movies Premium
+http://mitme.dynu.net:14285/rtp/232.84.1.77:8436
+
+#EXTINF:-1 tvg-name="FOX Life HD" tvg-logo="http://ia801903.us.archive.org/8/items/LOGOTV_201701/FOXLife.png" group-title="Qu?c t?",FOX Life HD
+http://mitme.dynu.net:14285/rtp/232.84.1.78:8442
+
+#EXTINF:-1 tvg-name="FOX Sports 2 HD" tvg-logo="http://ia801903.us.archive.org/8/items/LOGOTV_201701/FOX_SPORTS_2.png" group-title="Qu?c t?",FOX Sports 2 HD
+http://mitme.dynu.net:14285/rtp/232.84.1.12:8046
+
+#EXTINF:-1 tvg-name="FTV" tvg-logo="http://ia801903.us.archive.org/8/items/LOGOTV_201701/FTV.png" group-title="Qu?c t?",FTV
+http://mitme.dynu.net:14285/rtp/232.84.2.52:10522
+
+#EXTINF:-1 tvg-name="GEM HD" tvg-logo="http://ia801903.us.archive.org/8/items/LOGOTV_201701/gemtv.png" group-title="Qu?c t?",GEM HD
+http://mitme.dynu.net:14285/rtp/232.84.1.84:10392
+
+#EXTINF:-1 tvg-name="HBO" tvg-logo="http://ia801903.us.archive.org/8/items/LOGOTV_201701/HBO.png" group-title="Qu?c t?",HBO
+http://mitme.dynu.net:14285/rtp/232.84.2.138:10648
+
+#EXTINF:-1 tvg-name="KBS" tvg-logo="http://ia801903.us.archive.org/8/items/LOGOTV_201701/KBS_World.png" group-title="Qu?c t?",KBS
+http://mitme.dynu.net:14285/rtp/232.84.2.136:9612
+
+#EXTINF:-1 tvg-name="MAX by HBO" tvg-logo="http://ia801903.us.archive.org/8/items/LOGOTV_201701/max-by-hbo.png" group-title="Qu?c t?",MAX by HBO
+http://mitme.dynu.net:14285/rtp/232.84.2.139:10654
+
+#EXTINF:-1 tvg-name="MTV HD" tvg-logo="http://ia801903.us.archive.org/8/items/LOGOTV_201701/MTV.png" group-title="Qu?c t?",MTV HD
+http://mitme.dynu.net:14285/rtp/232.84.1.75:8424
+
+#EXTINF:-1 tvg-name="Nat Geo WILD" tvg-logo="http://ia801903.us.archive.org/8/items/LOGOTV_201701/Nat_Geo_Wild_HD.png" group-title="Qu?c t?",Nat Geo WILD
+http://mitme.dynu.net:14285/rtp/232.84.2.123:8454
+
+#EXTINF:-1 tvg-name="National Geographic HD" tvg-logo="http://ia801903.us.archive.org/8/items/LOGOTV_201701/National_Geographic_Channel.png" group-title="Qu?c t?",National Geographic HD
+http://mitme.dynu.net:14285/rtp/232.84.1.1:7980
+
+#EXTINF:-1 tvg-name="National Geographic People HD" tvg-logo="http://ia801903.us.archive.org/8/items/LOGOTV_201701/NatGeo_People.png" group-title="Qu?c t?",National Geographic People HD
+http://mitme.dynu.net:14285/rtp/232.84.1.76:8430
+
+#EXTINF:-1 tvg-name="NHK World Japan HD" tvg-logo="http://ia801903.us.archive.org/8/items/LOGOTV_201701/NHK_World_Japan.png" group-title="Qu?c t?",NHK World Japan HD
+http://mitme.dynu.net:14285/rtp/232.84.1.72:8406
+
+#EXTINF:-1 tvg-name="ChannelNewsAsiaHD" tvg-logo="http://ia801903.us.archive.org/8/items/LOGOTV_201701/Channel_NewsAsia.png" group-title="Qu?c t?",ChannelNewsAsiaHD
+http://mitme.dynu.net:14285/rtp/232.84.2.55:10540
+
+#EXTINF:-1 tvg-name="Screen Red HD" tvg-logo="http://ia801903.us.archive.org/8/items/LOGOTV_201701/REDBYHBO.png" group-title="Qu?c t?",Screen Red HD
+http://mitme.dynu.net:14285/rtp/232.84.1.9:8028
+
+#EXTINF:-1 tvg-name="Outdoor HD" tvg-logo="http://ia801903.us.archive.org/8/items/LOGOTV_201701/Outdoor_Channel_HD.png" group-title="Qu?c t?",Outdoor HD
+http://mitme.dynu.net:14285/rtp/232.84.1.107:10218
+
+#EXTINF:-1 tvg-name="TV5" tvg-logo="http://ia801903.us.archive.org/8/items/LOGOTV_201701/TV5Monde.png" group-title="Qu?c t?",TV5
+http://mitme.dynu.net:14285/rtp/232.84.1.45:8250
+
+#EXTINF:-1 tvg-name="Travel and Living" tvg-logo="http://ia801903.us.archive.org/8/items/LOGOTV_201701/tlc.png" group-title="Qu?c t?",Travel and Living
+http://mitme.dynu.net:14285/rtp/232.84.1.49:8274
+
+#EXTINF:-1 tvg-name="Warner HD" tvg-logo="http://ia801903.us.archive.org/8/items/LOGOTV_201701/Warner_hd.png" group-title="Qu?c t?",Warner HD
+http://mitme.dynu.net:14285/rtp/232.84.2.51:10516
+
+#EXTINF:-1 tvg-name="Bloomberg" tvg-logo="http://ia801903.us.archive.org/8/items/LOGOTV_201701/bloomberg.png" group-title="Qu?c t?",Bloomberg
+http://mitme.dynu.net:14285/rtp/232.84.1.7:8016
+
+#EXTINF:-1 tvg-name="Rai Italia" tvg-logo="http://ia801903.us.archive.org/8/items/LOGOTV_201701/rai.png" group-title="Qu?c t?",Rai Italia
+http://mitme.dynu.net:14285/rtp/232.84.1.64:8358
+
+#EXTINF:-1 tvg-name="OPT1" tvg-logo="http://ia801903.us.archive.org/8/items/LOGOTV_201701/opt1.png" group-title="Qu?c t?",OPT1
+http://mitme.dynu.net:14285/rtp/232.84.1.63:8352
+
+#EXTINF:-1 tvg-name="RT" tvg-logo="http://ia801903.us.archive.org/8/items/LOGOTV_201701/rt.png" group-title="Qu?c t?",RT
+http://mitme.dynu.net:14285/rtp/232.84.1.94:8538
+
+#EXTINF:-1 tvg-name="PTP" tvg-logo="http://ia801903.us.archive.org/8/items/LOGOTV_201701/ptp.png" group-title="Qu?c t?",PTP
+http://mitme.dynu.net:14285/rtp/232.84.1.95:8544
+
+#EXTINF:-1 tvg-name="VTC-HD 1" tvg-logo="http://www.vtvcab.vn/content/upload/1/home/partnercarousel/h-u/max-22-08/vtc-hd1_w122_h122.jpg" group-title="VTC",VTC-HD 1
+http://mitme.dynu.net:14285/rtp/232.84.1.71:8400
+
+#EXTINF:-1 tvg-name="VTC 2" tvg-logo="http://ia801903.us.archive.org/8/items/LOGOTV_201701/VTC2.png" group-title="VTC",VTC 2
+http://mitme.dynu.net:14285/rtp/232.84.1.57:8322
+
+#EXTINF:-1 tvg-name="VTC 3" tvg-logo="http://ia801903.us.archive.org/8/items/LOGOTV_201701/VTC3_HD.png" group-title="VTC",VTC HD3
+http://mitme.dynu.net:14285/rtp/232.84.1.81:8460
+
+#EXTINF:-1 tvg-name="VTC 4" tvg-logo="http://ia801903.us.archive.org/8/items/LOGOTV_201701/VTC4.png" group-title="VTC",VTC 4
+http://mitme.dynu.net:14285/rtp/232.84.2.37:10630
+
+#EXTINF:-1 tvg-name="VTC 5" tvg-logo="http://ia801903.us.archive.org/8/items/LOGOTV_201701/VTC5.png group-title="VTC",VTC 5
+http://mitme.dynu.net:14285/rtp/232.84.2.38:10636
+
+#EXTINF:-1 tvg-name="VTC 6" tvg-logo="http://ia801903.us.archive.org/8/items/LOGOTV_201701/VTC6_Sai_Gon_Channel.png" group-title="VTC",VTC 6
+http://mitme.dynu.net:14285/rtp/232.84.1.58:8328
+
+#EXTINF:-1 tvg-name="VTC 7" tvg-logo="http://ia801903.us.archive.org/8/items/LOGOTV_201701/VTC7_today_TV.png" group-title="VTC",VTC 7
+http://mitme.dynu.net:14285/rtp/232.84.1.213:9252
+
+#EXTINF:-1 tvg-name="VTC 8" tvg-logo="http://ia801903.us.archive.org/8/items/LOGOTV_201701/VTC5.png group-title="VTC",VTC 8
+http://mitme.dynu.net:14285/rtp/232.84.2.39:10642
+
+#EXTINF:-1 tvg-name="VTC9 - Let's Vi?t" tvg-logo="http://ia801903.us.archive.org/8/items/LOGOTV_201701/VTC9_Lets_Viet.png" group-title="VTC",VTC9 - Let's Vi?t
+http://mitme.dynu.net:14285/rtp/232.84.1.59:8334
+
+#EXTINF:-1 tvg-name="VTC 10" tvg-logo="http://ia801903.us.archive.org/8/items/LOGOTV_201701/VTC10_NetViet.png" group-title="VTC",VTC 10
+http://mitme.dynu.net:14285/rtp/232.84.1.214:9258
+
+#EXTINF:-1 tvg-name="VTC 11" tvg-logo="http://ia801903.us.archive.org/8/items/LOGOTV_201701/VTC11_kids_TV.png" group-title="VTC",VTC 11
+http://mitme.dynu.net:14285/rtp/232.84.1.61:8340
+
+#EXTINF:-1 tvg-name="VTC 12" tvg-logo="http://ia801903.us.archive.org/8/items/LOGOTV_201701/VTC12.png" group-title="VTC",VTC 12
+http://mitme.dynu.net:14285/rtp/232.84.1.202:9186
+
+#EXTINF:-1 tvg-name="VTC13 - iTV HD" tvg-logo="http://ia801903.us.archive.org/8/items/LOGOTV_201701/VTC13_iTV_HD.png" group-title="",VTC13 - iTV HD
+http://mitme.dynu.net:14285/rtp/232.84.1.74:8418
+
+#EXTINF:-1 tvg-name="VTC 14" tvg-logo="http://ia801903.us.archive.org/8/items/LOGOTV_201701/VTC14.png" group-title="VTC",VTC 14
+http://mitme.dynu.net:14285/rtp/232.84.1.216:9270
+
+#EXTINF:-1 tvg-name="VTC 16" tvg-logo="http://ia801903.us.archive.org/8/items/LOGOTV_201701/VTC16_3NTV.png" group-title="VTC",VTC 16
+http://mitme.dynu.net:14285/rtp/232.84.1.215:9264
+
+#EXTINF:-1 tvg-name="VTC1" tvg-logo="http://www.vtvcab.vn/content/upload/1/home/partnercarousel/h-u/max-22-08/vtc-hd1_w122_h122.jpg" group-title="VTC",VTC1
+http://mitme.dynu.net:14285/rtp/232.84.1.30:8154
+
+#EXTINF:-1 tvg-name="VTC 3" tvg-logo="http://ia801903.us.archive.org/8/items/LOGOTV_201701/VTC3.png" group-title="VTC",VTC 3
+http://mitme.dynu.net:14285/rtp/232.84.1.60:8232
+
+#EXTINF:-1 tvg-name="ITV-HD" tvg-logo="http://ia801903.us.archive.org/8/items/LOGOTV_201701/VTC13_iTV.png" group-title="VTC",VTC13 - iTV
+http://mitme.dynu.net:14285/rtp/232.84.1.62:8346
+
+#EXTINF:-1 tvg-name="HTV 1" tvg-logo="http://ia801903.us.archive.org/8/items/LOGOTV_201701/HTV1.png" group-title="HTV",HTV 1
+http://mitme.dynu.net:14285/rtp/232.84.1.35:8184
+
+#EXTINF:-1 tvg-name="" tvg-logo="http://ia801903.us.archive.org/8/items/LOGOTV_201701/HTV2_HD.png" group-title="HTV",HTV2 HD
+http://mitme.dynu.net:14285/rtp/232.84.1.222:9306
+
+#EXTINF:-1 tvg-name="HTV 2" tvg-logo="http://ia801903.us.archive.org/8/items/LOGOTV_201701/HTV2.png" group-title="HTV",HTV 2
+http://mitme.dynu.net:14285/rtp/232.84.1.36:8190
+
+#EXTINF:-1 tvg-name="" tvg-logo="http://ia801903.us.archive.org/8/items/LOGOTV_201701/HTV3.png" group-title="HTV",HTV3
+http://mitme.dynu.net:14285/rtp/232.84.1.104:8598
+
+#EXTINF:-1 tvg-name="HTV 4" tvg-logo="http://ia801903.us.archive.org/8/items/LOGOTV_201701/HTV4.png" group-title="HTV",HTV4
+http://mitme.dynu.net:14285/rtp/232.84.1.25:8124
+
+#EXTINF:-1 tvg-name="HTV 7 HD" tvg-logo="http://ia801903.us.archive.org/8/items/LOGOTV_201701/HTV7_HD.png" group-title="HTV",HTV7 HD
+http://mitme.dynu.net:14285/rtp/232.84.1.223:9312
+
+#EXTINF:-1 tvg-name="" tvg-logo="http://ia801903.us.archive.org/8/items/LOGOTV_201701/HTV9_HD.png" group-title="HTV",HTV9 HD
+http://mitme.dynu.net:14285/rtp/232.84.1.224:9318
+
+#EXTINF:-1 tvg-name="HTV2 HD" tvg-logo="http://ia801903.us.archive.org/8/items/LOGOTV_201701/HTVC_Ca_nhac.png" group-title="HTVC",HTV Ca nh?c
+http://mitme.dynu.net:14285/rtp/232.84.1.126:8730
+
+#EXTINF:-1 tvg-name="HTVC Du L?ch" tvg-logo="http://ia801903.us.archive.org/8/items/LOGOTV_201701/HTVC_DLCS.png" group-title="HTVC",HTV Du l?ch
+http://mitme.dynu.net:14285/rtp/232.84.1.221:9300
+
+#EXTINF:-1 tvg-name="HTV Gia dình" tvg-logo="http://ia801903.us.archive.org/8/items/LOGOTV_201701/HTVC_Gia_dinh.png  " group-title="HTVC",HTV Gia dình
+http://mitme.dynu.net:14285/rtp/232.84.1.170:8994
+
+#EXTINF:-1 tvg-name="HTVC Phim HD" tvg-logo="http://ia801903.us.archive.org/8/items/LOGOTV_201701/HtvcPhimHd.png" group-title="HTVC",HTVC Phim HD
+http://mitme.dynu.net:14285/rtp/232.84.2.133:9594
+
+#EXTINF:-1 tvg-name="HTV Phim truy?n" tvg-logo="http://ia801903.us.archive.org/8/items/LOGOTV_201701/HTVC_Phim.png" group-title="HTVC",HTV Phim truy?n
+http://mitme.dynu.net:14285/rtp/232.84.1.105:8604
+
+#EXTINF:-1 tvg-name="HTV Phim" tvg-logo="http://ia801903.us.archive.org/8/items/LOGOTV_201701/HTVC_Phu_nu.png" group-title="HTVC",HTV Phim
+http://mitme.dynu.net:14285/rtp/232.84.1.127:8736
+
+#EXTINF:-1 tvg-name="HTVC Thu?n Vi?t HD" tvg-logo="http://ia801903.us.archive.org/8/items/LOGOTV_201701/HTVC_Thuan_Viet.png" group-title="HTVC",HTVC Thu?n Vi?t HD
+http://mitme.dynu.net:14285/rtp/232.84.2.134:9600
+
+#EXTINF:-1 tvg-name="HTV Th? Thao" tvg-logo="http://ia801903.us.archive.org/8/items/LOGOTV_201701/HTV_The_Thao.png" group-title="HTVC",HTV Th? Thao
+http://mitme.dynu.net:14285/rtp/232.84.1.24:8118
+
+#EXTINF:-1 tvg-name="Vinh_Long" tvg-logo="http://ia801903.us.archive.org/8/items/LOGOTV_201701/Vinh_Long_TV1.png" group-title="??a ph??ng",THVL1
+http://mitme.dynu.net:14285/rtp/232.84.1.195:9144
+
+#EXTINF:-1 tvg-name="Vinh_Long" tvg-logo="http://ia801903.us.archive.org/8/items/LOGOTV_201701/Vinh_Long_TV2.png" group-title="??a ph??ng",THVL2
+http://mitme.dynu.net:14285/rtp/232.84.1.196:9150
+
+#EXTINF:-1 tvg-id="Sky Sports Premier League HD" tvg-logo="https://www.sportsnewsireland.com/wp-content/uploads/2017/10/Sky-Sports.jpg" group-title="The Thao",Sky Sports Premier League HD
+http://vapi.vaders.tv/play/2482.ts?token=eyJ1c2VybmFtZSI6Im5hbWVsZXNzX2ppbngiLCJwYXNzd29yZCI6ImVsaXphYmV0aDEifQ==
+
+#EXTINF:-1 tvg-id="Sky Sports Football HD" tvg-logo="https://archive.org/services/img/SkySportsFootball_201708" group-title="The Thao",Sky Sports Football HD
+http://vapi.vaders.tv/play/42360.ts?token=eyJ1c2VybmFtZSI6Im5hbWVsZXNzX2ppbngiLCJwYXNzd29yZCI6ImVsaXphYmV0aDEifQ==
+
+#EXTINF:-1 tvg-id="Sky Sports Mix HD" tvg-logo="https://archive.org/services/img/SkySportsFootball_201708" group-title="The Thao",Sky Sports Mix HD
+http://vapi.vaders.tv/play/37235.m3u8?token=eyJ1c2VybmFtZSI6Im5hbWVsZXNzX2ppbngiLCJwYXNzd29yZCI6ImVsaXphYmV0aDEifQ==
+
+#EXTINF:-1 tvg-id=",BT Sports 1 HD" tvg-logo="http://i.imgur.com/F2R303x.png" group-title="The Thao",BT Sports 1 HD
+http://vapi.vaders.tv/play/2487.ts?token=eyJ1c2VybmFtZSI6Im5hbWVsZXNzX2ppbngiLCJwYXNzd29yZCI6ImVsaXphYmV0aDEifQ==
+
+#EXTINF:-1 tvg-id=",BT Sports 2 HD" tvg-logo="https://3.bp.blogspot.com/-MZDBdIuELF0/WhOk48IxLPI/AAAAAAAAARA/B8DFgzpSqZ4LeG299_8rv68nyEyxZKpgwCLcBGAs/w1200-h630-p-k-no-nu/vsuvvu1433963716.png" group-title="The Thao",BT Sports 2 HD
+http://vapi.vaders.tv/play/2488.ts?token=eyJ1c2VybmFtZSI6Im5hbWVsZXNzX2ppbngiLCJwYXNzd29yZCI6ImVsaXphYmV0aDEifQ==
+
+#EXTINF:-1 tvg-id=",BT Sports 3 HD" tvg-logo="https://archive.org/services/img/BtSport3Hd" group-title="The Thao",BT Sports 3 HD
+http://vapi.vaders.tv/play/2489.ts?token=eyJ1c2VybmFtZSI6Im5hbWVsZXNzX2ppbngiLCJwYXNzd29yZCI6ImVsaXphYmV0aDEifQ==
+
+#EXTINF:-1 tvg-id=",BT Sports ESPN HD" tvg-logo="https://i2.wp.com/seenit.co.uk/wp-content/uploads/BT-ESPN.png?resize=380%2C220" group-title="The Thao",BT Sports ESPN HD
+http://vapi.vaders.tv/play/39831.ts?token=eyJ1c2VybmFtZSI6InBvb3IiLCJwYXNzd29yZCI6InJpY2gifQ==
+
+#EXTINF:-1 tvg-id=",Eurosport 1 HD" tvg-logo="https://vignette.wikia.nocookie.net/logopedia/images/6/69/Eurosport_HD_logo_2009.svg/revision/latest?cb=20151013122853" group-title="The Thao",Eurosport 1 HD
+http://vapi.vaders.tv/play/19293.m3u8?token=eyJ1c2VybmFtZSI6Im5hbWVsZXNzX2ppbngiLCJwYXNzd29yZCI6ImVsaXphYmV0aDEifQ==
+#EXTINF:-1 tvg-id=",Eurosport 2 HD" tvg-logo="https://vignette.wikia.nocookie.net/logopedia/images/6/69/Eurosport_HD_logo_2009.svg/revision/latest?cb=20151013122853" group-title="The Thao",Eurosport 2 HD
+http://vapi.vaders.tv/play/19294.m3u8?token=eyJ1c2VybmFtZSI6Im5hbWVsZXNzX2ppbngiLCJwYXNzd29yZCI6ImVsaXphYmV0aDEifQ==
+
+#EXTINF:-1 tvg-id=",NBC Sports Network HD" tvg-logo="https://vignette.wikia.nocookie.net/logopedia/images/3/31/NBCSports-Network_POS.png/revision/latest?cb=20150824211133" group-title="The Thao",NBC Sports Network HD
+http://vapi.vaders.tv/play/2562.ts?token=eyJ1c2VybmFtZSI6Im5hbWVsZXNzX2ppbngiLCJwYXNzd29yZCI6ImVsaXphYmV0aDEifQ==
+
+#EXTINF:-1 tvg-id=",BeIN Sports USA HD" tvg-logo="http://2.bp.blogspot.com/-QnsbGgKZh98/Vk9aSUtu0YI/AAAAAAAAC28/GQGb4b9vmuk/s1600/BeinSportHDusa.png" group-title="The Thao",BeIN Sports USA HD
+http://vapi.vaders.tv/play/2563.ts?token=eyJ1c2VybmFtZSI6Im5hbWVsZXNzX2ppbngiLCJwYXNzd29yZCI6ImVsaXphYmV0aDEifQ==
+
+#EXTINF:-1 tvg-id=",BEIN Laliga HD" tvg-logo="http://adminweb.onlycable.net/img/Canale/small/LA-LIGA-HD/LA-LIGA-HD_.png" group-title="The Thao",BEIN Laliga HD
+http://vapi.vaders.tv/play/39855.ts?token=eyJ1c2VybmFtZSI6Im5hbWVsZXNzX2ppbngiLCJwYXNzd29yZCI6ImVsaXphYmV0aDEifQ==
+
+#EXTINF:-1 tvg-id=",Fox Sports 1 HD" tvg-logo="https://www.imsa.com/sites/default/files/fs1_newlogo_newsite.png" group-title="The Thao",Fox Sports 1 HD
+http://vapi.vaders.tv/play/2568.ts?token=eyJ1c2VybmFtZSI6Im5hbWVsZXNzX2ppbngiLCJwYXNzd29yZCI6ImVsaXphYmV0aDEifQ==
+
+#EXTINF:-1 tvg-id=",Fox Sports 2 HD" tvg-logo="https://imsatv.imsa.com/sites/default/files/fs2_newlogo_newsite.png" group-title="The Thao",Fox Sports 2 HD
+http://vapi.vaders.tv/play/2569.ts?token=eyJ1c2VybmFtZSI6Im5hbWVsZXNzX2ppbngiLCJwYXNzd29yZCI6ImVsaXphYmV0aDEifQ==
+
+#EXTINF:-1 tvg-id=",ESPN HD" tvg-logo="http://assets.stickpng.com/thumbs/5847f1b0cef1014c0b5e485d.png" group-title="The Thao",ESPN HD
+http://vapi.vaders.tv/play/2565.m3u8?token=eyJ1c2VybmFtZSI6Im5hbWVsZXNzX2ppbngiLCJwYXNzd29yZCI6ImVsaXphYmV0aDEifQ==
+
+#EXTINF:-1 tvg-id=",ESPN 2 HD" tvg-logo="http://assets.stickpng.com/thumbs/5847f1b0cef1014c0b5e485d.png" group-title="The Thao",ESPN 2 HD
+http://vapi.vaders.tv/play/2566.m3u8?token=eyJ1c2VybmFtZSI6Im5hbWVsZXNzX2ppbngiLCJwYXNzd29yZCI6ImVsaXphYmV0aDEifQ==
+
+#EXTINF:-1 tvg-id=",ESPN U HD" tvg-logo="http://www.gazellegroup.com/main/cbi/wp-content/uploads/sites/43/2016/02/ESPNULogo-full.png" group-title="The Thao",ESPN U HD
+http://vapi.vaders.tv/play/2567.m3u8?token=eyJ1c2VybmFtZSI6Im5hbWVsZXNzX2ppbngiLCJwYXNzd29yZCI6ImVsaXphYmV0aDEifQ==
+
+#EXTINF:-1 tvg-id=",UFC HD" tvg-logo="data:image/png;base64,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" group-title="The Thao",UFC HD
+http://vapi.vaders.tv/play/42469.m3u8?token=eyJ1c2VybmFtZSI6Im5hbWVsZXNzX2ppbngiLCJwYXNzd29yZCI6ImVsaXphYmV0aDEifQ==
+
+#EXTINF:-1 tvg-id=",WWE" tvg-logo="https://pbs.twimg.com/profile_images/742766007387881476/qMUbmBmS_400x400.jpg" group-title="The Thao",WWE
+http://vapi.vaders.tv/play/3047.ts?token=eyJ1c2VybmFtZSI6Im5hbWVsZXNzX2ppbngiLCJwYXNzd29yZCI6ImVsaXphYmV0aDEifQ==
+
+#EXTINF:-1 tvg-id=",Tennis Channel HD" tvg-logo="http://pmcdeadline2.files.wordpress.com/2012/08/tennis-channel__120824220946-200x276.jpg?w=200&h=276" group-title="The Thao",Tennis Channel HD
+http://vapi.vaders.tv/play/40876.ts?token=eyJ1c2VybmFtZSI6Im5hbWVsZXNzX2ppbngiLCJwYXNzd29yZCI6ImVsaXphYmV0aDEifQ==
+
+#EXTINF:-1 tvg-id=",BEIN SPORTS 1" tvg-logo="https://www.telstra.com.au/content/dam/tcom/personal/entertainment/images-c/bein-sport-v1.png" group-title="The Thao",BEIN SPORTS 1
+http://vapi.vaders.tv/play/39377.m3u8?token=eyJ1c2VybmFtZSI6Im5hbWVsZXNzX2ppbngiLCJwYXNzd29yZCI6ImVsaXphYmV0aDEifQ==
+
+#EXTINF:-1 tvg-id=",BEIN SPORTS 2" tvg-logo="https://www.telstra.com.au/content/dam/tcom/personal/entertainment/images-c/bein-sport-v1.png" group-title="The Thao",BEIN SPORTS 2
+http://vapi.vaders.tv/play/39378.m3u8?token=eyJ1c2VybmFtZSI6Im5hbWVsZXNzX2ppbngiLCJwYXNzd29yZCI6ImVsaXphYmV0aDEifQ==
+
+#EXTINF:-1 tvg-id=",BEIN SPORTS 3" tvg-logo="https://www.telstra.com.au/content/dam/tcom/personal/entertainment/images-c/bein-sport-v1.png" group-title="The Thao",BEIN SPORTS 3
+http://vapi.vaders.tv/play/39379.m3u8?token=eyJ1c2VybmFtZSI6Im5hbWVsZXNzX2ppbngiLCJwYXNzd29yZCI6ImVsaXphYmV0aDEifQ==
+
+#EXTINF:-1 tvg-id=",BEIN SPORTS 4" tvg-logo="https://www.telstra.com.au/content/dam/tcom/personal/entertainment/images-c/bein-sport-v1.png" group-title="The Thao",BEIN SPORTS 4
+http://vapi.vaders.tv/play/39380.m3u8?token=eyJ1c2VybmFtZSI6Im5hbWVsZXNzX2ppbngiLCJwYXNzd29yZCI6ImVsaXphYmV0aDEifQ==
+
+#EXTINF:-1 tvg-id=",BEIN SPORTS 5" tvg-logo="https://www.telstra.com.au/content/dam/tcom/personal/entertainment/images-c/bein-sport-v1.png" group-title="The Thao",BEIN SPORTS 5
+http://vapi.vaders.tv/play/39381.m3u8?token=eyJ1c2VybmFtZSI6Im5hbWVsZXNzX2ppbngiLCJwYXNzd29yZCI6ImVsaXphYmV0aDEifQ==
+
+#EXTINF:-1 tvg-id=",BEIN SPORTS 6" tvg-logo="https://www.telstra.com.au/content/dam/tcom/personal/entertainment/images-c/bein-sport-v1.png" group-title="The Thao",BEIN SPORTS 6
+http://vapi.vaders.tv/play/39382.m3u8?token=eyJ1c2VybmFtZSI6Im5hbWVsZXNzX2ppbngiLCJwYXNzd29yZCI6ImVsaXphYmV0aDEifQ==
+
+#EXTINF:-1 tvg-id=",BEIN SPORTS 7" tvg-logo="https://www.telstra.com.au/content/dam/tcom/personal/entertainment/images-c/bein-sport-v1.png" group-title="The Thao",BEIN SPORTS 7
+http://vapi.vaders.tv/play/39383.m3u8?token=eyJ1c2VybmFtZSI6Im5hbWVsZXNzX2ppbngiLCJwYXNzd29yZCI6ImVsaXphYmV0aDEifQ==
+
+#EXTINF:-1 tvg-id=",BEIN SPORTS 8" tvg-logo="https://www.telstra.com.au/content/dam/tcom/personal/entertainment/images-c/bein-sport-v1.png" group-title="The Thao",BEIN SPORTS 8
+http://vapi.vaders.tv/play/39384.m3u8?token=eyJ1c2VybmFtZSI6Im5hbWVsZXNzX2ppbngiLCJwYXNzd29yZCI6ImVsaXphYmV0aDEifQ==
+
+#EXTINF:-1 tvg-id=",BEIN SPORTS 9" tvg-logo="https://www.telstra.com.au/content/dam/tcom/personal/entertainment/images-c/bein-sport-v1.png" group-title="The Thao",BEIN SPORTS 9
+http://vapi.vaders.tv/play/39385.m3u8?token=eyJ1c2VybmFtZSI6Im5hbWVsZXNzX2ppbngiLCJwYXNzd29yZCI6ImVsaXphYmV0aDEifQ==
+
+#EXTINF:-1 tvg-id=",BEIN SPORTS 10" tvg-logo="https://www.telstra.com.au/content/dam/tcom/personal/entertainment/images-c/bein-sport-v1.png" group-title="The Thao",BEIN SPORTS 10
+http://vapi.vaders.tv/play/39386.m3u8?token=eyJ1c2VybmFtZSI6Im5hbWVsZXNzX2ppbngiLCJwYXNzd29yZCI6ImVsaXphYmV0aDEifQ==
+#EXTINF:-1 tvg-id=",BEIN SPORTS 11" tvg-logo="https://www.telstra.com.au/content/dam/tcom/personal/entertainment/images-c/bein-sport-v1.png" group-title="The Thao",BEIN SPORTS 11
+http://vapi.vaders.tv/play/40879.ts?token=eyJ1c2VybmFtZSI6Im5hbWVsZXNzX2ppbngiLCJwYXNzd29yZCI6ImVsaXphYmV0aDEifQ==
+
+#EXTINF:-1 tvg-id=",BEIN SPORTS 12" tvg-logo="https://www.telstra.com.au/content/dam/tcom/personal/entertainment/images-c/bein-sport-v1.png" group-title="The Thao",BEIN SPORTS 12
+http://vapi.vaders.tv/play/40880.ts?token=eyJ1c2VybmFtZSI6Im5hbWVsZXNzX2ppbngiLCJwYXNzd29yZCI6ImVsaXphYmV0aDEifQ==
+
+#EXTINF:-1 tvg-id=",BEIN SPORTS Reload" tvg-logo="https://www.telstra.com.au/content/dam/tcom/personal/entertainment/images-c/bein-sport-v1.png" group-title="The Thao",BEIN #EXTINF:-1 tvg-id=",Ten 1" tvg-logo="http://www.firstonetv.net/images/logos/in/SONYTEN1.png" group-title="The Thao",Ten 1
+http://vapi.vaders.tv/play/79282.ts?token=eyJ1c2VybmFtZSI6Im5hbWVsZXNzX2ppbngiLCJwYXNzd29yZCI6ImVsaXphYmV0aDEifQ==
+
+#EXTINF:-1 tvg-id=",Ten 2" tvg-logo="https://vignette.wikia.nocookie.net/logopedia/images/d/d6/ST2HD.png/revision/latest?cb=20171031110346" group-title="The Thao",Ten 2
+http://vapi.vaders.tv/play/79283.ts?token=eyJ1c2VybmFtZSI6Im5hbWVsZXNzX2ppbngiLCJwYXNzd29yZCI6ImVsaXphYmV0aDEifQ==
+
+#EXTINF:-1 tvg-id=",Ten 3" tvg-logo="http://www.firstonetv.net/images/logos/in/SONYTEN3.png" group-title="The Thao",Ten 3
+http://vapi.vaders.tv/play/79284.ts?token=eyJ1c2VybmFtZSI6Im5hbWVsZXNzX2ppbngiLCJwYXNzd29yZCI6ImVsaXphYmV0aDEifQ==
