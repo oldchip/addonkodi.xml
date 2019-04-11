@@ -35,7 +35,7 @@ sheet_headers = {
 
 
 def GetSheetIDFromSettings():
-	sid = "13eYVS7eVDdzMjUeCQeGsQoYajUntmVSq7uCrtOTAxl4"
+	sid = "1EWMWw6B7tI97SSq1RcOcbjmKWk-yicAgoyPaPzs7up0"
 	resp, content = http.request(plugin.get_setting("GSheetURL"), "HEAD")
 	try:
 		sid = re.compile("/d/(.+?)/").findall(resp["content-location"])[0]
