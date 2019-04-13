@@ -160,7 +160,7 @@ def getItems(url_path="0", tq="select A,B,C,D,E"):
 		item = {}
 		item["label"] = getValue(row["c"][0]).encode("utf-8")
 		item["label2"] = getValue(row["c"][4])
-		# Nếu phát hiện spreadsheet khác với VNOpenPlaylist
+		# Nếu phát hiện spreadsheet khác với AloHa Cinema
 		new_path = getValue(row["c"][1])
 		if "@" in url_path and "@" not in new_path and "section/" in new_path:
 			gid = re.compile("section/(\d+)").findall(new_path)[0]
@@ -1105,8 +1105,8 @@ def GetFShareCred():
 
 
 def LoginOKNoti(user="",lvl=""):
-	header = "[COLOR red]ALOHA[/COLOR][COLOR lime]CINEMA![/COLOR]"
-	message = "[COLOR blue][B]KÍNH CHÀO QUÝ KHÁCH[/B][/COLOR]"
+	header = "[COLOR red]ALOHA[/COLOR] [COLOR lime]CINEMA![/COLOR]"
+	message = "[COLOR yellow][B]KÍNH CHÀO QUÝ KHÁCH[/B][/COLOR]"
 	xbmc.executebuiltin('Notification("{}", "{}", "{}", "")'.format(header, message, "10000"))
 
 
