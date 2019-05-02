@@ -178,9 +178,9 @@ def getItems(url_path="0", tq="select A,B,C,D,E"):
 		if "plugin://" in item["path"]:
 			if "install-repo" in item["path"]:
 				item["is_playable"] = False
-			elif re.search("plugin.video.family.vn/(.+?)/.+?\://", item["path"]):
+			elif re.search("plugin.video.family/(.+?)/.+?\://", item["path"]):
 				match = re.search(
-					"plugin.video.family.vn(/.+?/).+?\://", item["path"])
+					"plugin.video.family(/.+?/).+?\://", item["path"])
 				tmp = item["path"].split(match.group(1))
 				tmp[-1] = urllib.quote_plus(tmp[-1])
 				item["path"] = match.group(1).join(tmp)
@@ -200,7 +200,7 @@ def getItems(url_path="0", tq="select A,B,C,D,E"):
 			item["path"] = pluginrootpath + "/executebuiltin/-"
 		else:
 			if "spreadsheets/d/" in item["path"]:
-				# https://docs.google.com/spreadsheets/d/13eYVS7eVDdzMjUeCQeGsQoYajUntmVSq7uCrtOTAxl4/edit#gid=1783813899
+				# https://docs.google.com/spreadsheets/d/1zL6Kw4ZGoNcIuW9TAlHWZrNIJbDU5xHTtz-o8vpoJss/edit#gid=0
 				match_cache = re.search('cache=(.+?)($|&)', item["path"])
 				match_passw = re.search('passw=(.+?)($|&)', item["path"])
 
@@ -736,7 +736,7 @@ def AddTracking(items):
 	'''
 
 	for item in items:
-		if "plugin.video.family.vn" in item["path"]:
+		if "plugin.video.HieuHien.vn" in item["path"]:
 			tmps = item["path"].split("?")
 			if len(tmps) == 1:
 				tail = ""
@@ -1114,7 +1114,7 @@ def GetFShareCred():
 			dialog = xbmcgui.Dialog()
 			yes = dialog.yesno(
 				'Đăng nhập không thành công!\n',
-				'[COLOR yellow]Nhập VIP Fshare[/COLOR]',
+				'[COLOR yellow]Nhập VIP Fshare của bạn[/COLOR]',
 				yeslabel='OK, nhập ngay',
 				nolabel='Bỏ qua'
 			)
