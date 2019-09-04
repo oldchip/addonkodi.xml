@@ -16,7 +16,7 @@ import socket
 from datetime import datetime
 # Tham khảo xbmcswift2 framework cho kodi addon tại
 # http://xbmcswift2.readthedocs.io/en/latest/
-from kodiswift import Plugin, xbmc, xbmcaddon, xbmcgui, actions
+from kodiswift import Plugin, xbmc, xbmcaddon, xbmcgui, actions, xbmcplugin
 path = xbmc.translatePath(
 	xbmcaddon.Addon().getAddonInfo('path')).decode("utf-8")
 cache = xbmc.translatePath(os.path.join(path, ".cache"))
@@ -25,7 +25,7 @@ addons_folder = xbmc.translatePath('special://home/addons')
 image = xbmc.translatePath(os.path.join(path, "icon.png"))
 
 plugin = Plugin()
-addon = xbmcaddon.Addon("plugin.video.family")
+addon          = xbmcaddon.Addon("plugin.video.family")
 pluginrootpath = "plugin://plugin.video.family"
 http = httplib2.Http(cache, disable_ssl_certificate_validation=True)
 query_url = "https://docs.google.com/spreadsheets/d/{sid}/gviz/tq?gid={gid}&headers=1&tq={tq}"
@@ -155,6 +155,7 @@ def getItems(url_path="0", tq="select A,B,C,D,E"):
 	)
 	_re = "google.visualization.Query.setResponse\((.+)\);"
 	_json = json.loads(re.compile(_re).findall(content)[0])
+
 	items = []
 	for row in _json["table"]["rows"]:
 		item = {}
@@ -177,9 +178,9 @@ def getItems(url_path="0", tq="select A,B,C,D,E"):
 		if "plugin://" in item["path"]:
 			if "install-repo" in item["path"]:
 				item["is_playable"] = False
-			elif re.search("plugin.video.tranhuyhoang.playlist/(.+?)/.+?\://", item["path"]):
+			elif re.search("plugin.video.family/(.+?)/.+?\://", item["path"]):
 				match = re.search(
-					"plugin.video.tranhuyhoang.playlist(/.+?/).+?\://", item["path"])
+					"plugin.video.family(/.+?/).+?\://", item["path"])
 				tmp = item["path"].split(match.group(1))
 				tmp[-1] = urllib.quote_plus(tmp[-1])
 				item["path"] = match.group(1).join(tmp)
@@ -199,7 +200,7 @@ def getItems(url_path="0", tq="select A,B,C,D,E"):
 			item["path"] = pluginrootpath + "/executebuiltin/-"
 		else:
 			if "spreadsheets/d/" in item["path"]:
-				# https://docs.google.com/spreadsheets/d/13eYVS7eVDdzMjUeCQeGsQoYajUntmVSq7uCrtOTAxl4/edit#gid=1783813899
+				# https://docs.google.com/spreadsheets/d/1zL6Kw4ZGoNcIuW9TAlHWZrNIJbDU5xHTtz-o8vpoJss/edit#gid=0
 				match_cache = re.search('cache=(.+?)($|&)', item["path"])
 				match_passw = re.search('passw=(.+?)($|&)', item["path"])
 
@@ -240,24 +241,12 @@ def getItems(url_path="0", tq="select A,B,C,D,E"):
 				# https://www.youtube.com/channel/UC-9-kyTW8ZkZNDHQJ6FgpwQ
 				yt_route = "ytcp" if "playlists" in item["path"] else "ytc"
 				yt_cid = re.compile("youtube.com/channel/(.+?)$").findall(item["path"])[0]
-				item["path"] = "plugin://plugin.video.kodi4vn.launcher/%s/%s/" % (
-					yt_route, yt_cid)
-				item["path"] = item["path"].replace("/playlists", "")
+				item["path"] = "plugin://plugin.video.youtube/channel/%s/" % yt_cid
 			elif "youtube.com/playlist" in item["path"]:
 				# https://www.youtube.com/playlist?list=PLFgquLnL59alCl_2TQvOiD5Vgm1hCaGSI
 				yt_pid = re.compile("list=(.+?)$").findall(item["path"])[0]
-				item["path"] = "plugin://plugin.video.kodi4vn.launcher/ytp/%s/" % yt_pid
-			elif any(ext in item["path"] for ext in [".png", ".jpg", ".bmp", ".jpeg"]):
-				item["path"] = "plugin://plugin.video.kodi4vn.launcher/showimage/%s/" % urllib.quote_plus(
-					item["path"])
-			elif re.search("\.ts$", item["path"]):
-				item["path"] = "plugin://plugin.video.f4mTester/?url=%s&streamtype=TSDOWNLOADER&use_proxy_for_chunks=True&name=%s" % (
-					urllib.quote(item["path"]),
-					urllib.quote_plus(item["label"])
-				)
-				item["path"] = pluginrootpath + \
-					"/executebuiltin/" + urllib.quote_plus(item["path"])
-			else:
+				item["path"] = "plugin://plugin.video.youtube/playlist/%s/" % yt_pid
+			else:		
 				# Nếu là direct link thì route đến hàm play_url
 				item["is_playable"] = True
 				item["info"] = {"type": "video"}
@@ -363,6 +352,8 @@ def CachedSection(path="0", tracking_string="Home"):
 		"Section - %s" % tracking_string,
 		"/section/%s" % path
 	)
+	plugin.add_sort_method(xbmcplugin.SORT_METHOD_UNSORTED)
+	plugin.add_sort_method(xbmcplugin.SORT_METHOD_LABEL_IGNORE_THE)
 	return plugin.finish(getCachedItems(path))
 
 
@@ -382,6 +373,9 @@ def PasswordSection(password="0000", path="0", tracking_string="Home"):
 		"/password-section/%s" % path
 	)
 	passwords = plugin.get_storage('passwords')
+	plugin.add_sort_method(xbmcplugin.SORT_METHOD_UNSORTED)
+	plugin.add_sort_method(xbmcplugin.SORT_METHOD_LABEL_IGNORE_THE)
+
 	if password in passwords and (time.time() - passwords[password] < 1800):
 		items = AddTracking(getItems(path))
 		return plugin.finish(items)
@@ -415,6 +409,8 @@ def Section(path="0", tracking_string="Home"):
 		"/section/%s" % path
 	)
 	items = AddTracking(getItems(path))
+	plugin.add_sort_method(xbmcplugin.SORT_METHOD_UNSORTED)
+	plugin.add_sort_method(xbmcplugin.SORT_METHOD_LABEL_IGNORE_THE)
 	return plugin.finish(items)
 
 
@@ -473,6 +469,8 @@ def AceList(path="0", tracking_string="AceList"):
 		item["is_playable"] = True
 		item["info"] = {"type": "video"}
 		items += [item]
+	plugin.add_sort_method(xbmcplugin.SORT_METHOD_UNSORTED)
+	plugin.add_sort_method(xbmcplugin.SORT_METHOD_LABEL_IGNORE_THE)
 	return plugin.finish(items)
 
 
@@ -547,6 +545,8 @@ def FShare(path="0", tracking_string="FShare"):
 			),
 			'thumbnail': "https://docs.google.com/drawings/d/12OjbFr3Z5TCi1WREwTWECxNNwx0Kx-FTrCLOigrpqG4/pub?w=256&h=256"
 		})
+	plugin.add_sort_method(xbmcplugin.SORT_METHOD_UNSORTED)
+	plugin.add_sort_method(xbmcplugin.SORT_METHOD_LABEL_IGNORE_THE)
 	return plugin.finish(items)
 
 
@@ -573,6 +573,8 @@ def M3USection(path="0", tracking_string="M3U"):
 			del item["is_playable"]
 		if "playable" in item:
 			del item["playable"]
+	plugin.add_sort_method(xbmcplugin.SORT_METHOD_UNSORTED)
+	plugin.add_sort_method(xbmcplugin.SORT_METHOD_LABEL_IGNORE_THE)
 	return plugin.finish(AddTracking(items))
 
 
@@ -594,6 +596,8 @@ def M3U(path="0", tracking_string="M3U"):
 	)
 
 	items = M3UToItems(path)
+	plugin.add_sort_method(xbmcplugin.SORT_METHOD_UNSORTED)
+	plugin.add_sort_method(xbmcplugin.SORT_METHOD_LABEL_IGNORE_THE)
 	return plugin.finish(AddTracking(items))
 
 
@@ -753,8 +757,7 @@ def AddTracking(items):
 				tail = ""
 			else:
 				tail = tmps[1]
-			item["path"] = "%s/%s?%s" % (tmps[0],
-			                             urllib.quote_plus(item["label"]), tail)
+			item["path"] = "%s/%s?%s" % (tmps[0], urllib.quote_plus(item["label"]), tail)
 	return items
 
 
@@ -1080,12 +1083,11 @@ def convert_ipv4_url(url):
 	ipv4_addrs = [addr[4][0] for addr in addrs if addr[0] == socket.AF_INET]
 	url = url.replace(host, ipv4_addrs[0])
 	return url
-
+	
 def LoginFShare(uname,pword):
 	login_uri = "https://api2.fshare.vn/api/user/login"
 	login_uri = convert_ipv4_url(login_uri)
 	fshare_headers = {
-		"User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36",
 		"Accept-Encoding": "gzip, deflate, sdch"
 	}
 	data = '{"app_key": "L2S7R6ZMagggC5wWkQhX2+aDi467PPuftWUMRFSn","user_email": "%s","password": "%s"}' % (uname, pword)
@@ -1105,8 +1107,8 @@ def get_fshare_setting(s):
 def GetFShareCred():
 	try:
 		_hash = get_fshare_setting("hash")
-		uname = get_fshare_setting("usernamefshare")
-		pword = get_fshare_setting("passwordfshare")
+		uname = get_fshare_setting("Ufacebook")
+		pword = get_fshare_setting("Upassword")
 		if _hash != (uname+pword): 
 			plugin.set_setting("cred","")
 		cred  = json.loads(get_fshare_setting("cred"))
@@ -1115,8 +1117,8 @@ def GetFShareCred():
 		return cred
 	except:
 		try:
-			uname = get_fshare_setting("usernamefshare")
-			pword = get_fshare_setting("passwordfshare")
+			uname = get_fshare_setting("Ufacebook")
+			pword = get_fshare_setting("Upassword")
 			cred = LoginFShare(uname,pword)
 			user = GetFShareUser(cred)
 			LoginOKNoti(user["email"], user["level"])
@@ -1125,7 +1127,7 @@ def GetFShareCred():
 			dialog = xbmcgui.Dialog()
 			yes = dialog.yesno(
 				'Đăng nhập không thành công!\n',
-				'[COLOR yellow]Bạn muốn nhập tài khoản FShare VIP bây giờ không?[/COLOR]',
+				'[COLOR yellow]Nhập VIP Fshare của bạn [/COLOR]',
 				yeslabel='OK, nhập ngay',
 				nolabel='Bỏ qua'
 			)
@@ -1136,9 +1138,9 @@ def GetFShareCred():
 
 
 def LoginOKNoti(user="",lvl=""):
-	header = "[COLOR blue]TRUNG TÂM GIẢI TRÍ [/COLOR][COLOR lime]FAMILY ENTERTAINMENT CENTER![/COLOR]"
-	message = "[COLOR yellow][B]ENJOY YOUR LIFE![/B][/COLOR]".format(user, lvl)
-	xbmc.executebuiltin('Notification("{}", "{}", "{}", "")'.format(header, message, "10000"))
+	header = "[COLOR yellow]ENTETAINMENT![/COLOR]"
+	message = "[COLOR blue][B]Enjoy Your Time[/B][/COLOR]"
+	xbmc.executebuiltin('Notification("{}", "{}","{}", "")'.format(header, message, "10000"))
 
 
 def GetFShareUser(cred):
@@ -1185,7 +1187,7 @@ def GA(title="Home", page="/"):
 		client_id = open(cid_path).read()
 		data = {
 			'v': '1',
-			'tid': 'UA-52209804-5',  # Thay GA id của bạn ở đây
+			'tid': 'UA-89364622-1',  # Thay GA id của bạn ở đây
 			'cid': client_id,
 			't': 'pageview',
 			'dp': "VNPlaylist%s" % page,
