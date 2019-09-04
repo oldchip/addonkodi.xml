@@ -25,7 +25,7 @@ addons_folder = xbmc.translatePath('special://home/addons')
 image = xbmc.translatePath(os.path.join(path, "icon.png"))
 
 plugin = Plugin()
-addon = xbmcaddon.Addon("plugin.video.family")
+addon          = xbmcaddon.Addon("plugin.video.family")
 pluginrootpath = "plugin://plugin.video.family"
 http = httplib2.Http(cache, disable_ssl_certificate_validation=True)
 query_url = "https://docs.google.com/spreadsheets/d/{sid}/gviz/tq?gid={gid}&headers=1&tq={tq}"
@@ -155,12 +155,13 @@ def getItems(url_path="0", tq="select A,B,C,D,E"):
 	)
 	_re = "google.visualization.Query.setResponse\((.+)\);"
 	_json = json.loads(re.compile(_re).findall(content)[0])
+
 	items = []
 	for row in _json["table"]["rows"]:
 		item = {}
 		item["label"] = getValue(row["c"][0]).encode("utf-8")
 		item["label2"] = getValue(row["c"][4])
-		# Nếu phát hiện spreadsheet khác với plugin video family
+		# Nếu phát hiện spreadsheet khác với VNOpenPlaylist
 		new_path = getValue(row["c"][1])
 		if "@" in url_path and "@" not in new_path and "section/" in new_path:
 			gid = re.compile("section/(\d+)").findall(new_path)[0]
@@ -199,7 +200,7 @@ def getItems(url_path="0", tq="select A,B,C,D,E"):
 			item["path"] = pluginrootpath + "/executebuiltin/-"
 		else:
 			if "spreadsheets/d/" in item["path"]:
-				# https://docs.google.com/spreadsheets/d/13eYVS7eVDdzMjUeCQeGsQoYajUntmVSq7uCrtOTAxl4/edit#gid=0
+				# https://docs.google.com/spreadsheets/d/1zL6Kw4ZGoNcIuW9TAlHWZrNIJbDU5xHTtz-o8vpoJss/edit#gid=0
 				match_cache = re.search('cache=(.+?)($|&)', item["path"])
 				match_passw = re.search('passw=(.+?)($|&)', item["path"])
 
@@ -240,24 +241,12 @@ def getItems(url_path="0", tq="select A,B,C,D,E"):
 				# https://www.youtube.com/channel/UC-9-kyTW8ZkZNDHQJ6FgpwQ
 				yt_route = "ytcp" if "playlists" in item["path"] else "ytc"
 				yt_cid = re.compile("youtube.com/channel/(.+?)$").findall(item["path"])[0]
-				item["path"] = "plugin://plugin.video.kodi4vn.launcher/%s/%s/" % (
-					yt_route, yt_cid)
-				item["path"] = item["path"].replace("/playlists", "")
+				item["path"] = "plugin://plugin.video.youtube/channel/%s/" % yt_cid
 			elif "youtube.com/playlist" in item["path"]:
 				# https://www.youtube.com/playlist?list=PLFgquLnL59alCl_2TQvOiD5Vgm1hCaGSI
 				yt_pid = re.compile("list=(.+?)$").findall(item["path"])[0]
-				item["path"] = "plugin://plugin.video.kodi4vn.launcher/ytp/%s/" % yt_pid
-			elif any(ext in item["path"] for ext in [".png", ".jpg", ".bmp", ".jpeg"]):
-				item["path"] = "plugin://plugin.video.kodi4vn.launcher/showimage/%s/" % urllib.quote_plus(
-					item["path"])
-			elif re.search("\.ts$", item["path"]):
-				item["path"] = "plugin://plugin.video.f4mTester/?url=%s&streamtype=TSDOWNLOADER&use_proxy_for_chunks=True&name=%s" % (
-					urllib.quote(item["path"]),
-					urllib.quote_plus(item["label"])
-				)
-				item["path"] = pluginrootpath + \
-					"/executebuiltin/" + urllib.quote_plus(item["path"])
-			else:
+				item["path"] = "plugin://plugin.video.youtube/playlist/%s/" % yt_pid
+			else:		
 				# Nếu là direct link thì route đến hàm play_url
 				item["is_playable"] = True
 				item["info"] = {"type": "video"}
@@ -762,7 +751,7 @@ def AddTracking(items):
 	'''
 
 	for item in items:
-		if "plugin.video.thongld.vnplaylist" in item["path"]:
+		if "plugin.video.family" in item["path"]:
 			tmps = item["path"].split("?")
 			if len(tmps) == 1:
 				tail = ""
@@ -1094,7 +1083,7 @@ def convert_ipv4_url(url):
 	ipv4_addrs = [addr[4][0] for addr in addrs if addr[0] == socket.AF_INET]
 	url = url.replace(host, ipv4_addrs[0])
 	return url
-
+	
 def LoginFShare(uname,pword):
 	login_uri = "https://api2.fshare.vn/api/user/login"
 	login_uri = convert_ipv4_url(login_uri)
@@ -1118,8 +1107,8 @@ def get_fshare_setting(s):
 def GetFShareCred():
 	try:
 		_hash = get_fshare_setting("hash")
-		uname = get_fshare_setting("usernamefshare")
-		pword = get_fshare_setting("passwordfshare")
+		uname = get_fshare_setting("Ufacebook")
+		pword = get_fshare_setting("Upassword")
 		if _hash != (uname+pword): 
 			plugin.set_setting("cred","")
 		cred  = json.loads(get_fshare_setting("cred"))
@@ -1128,8 +1117,8 @@ def GetFShareCred():
 		return cred
 	except:
 		try:
-			uname = get_fshare_setting("usernamefshare")
-			pword = get_fshare_setting("passwordfshare")
+			uname = get_fshare_setting("Ufacebook")
+			pword = get_fshare_setting("Upassword")
 			cred = LoginFShare(uname,pword)
 			user = GetFShareUser(cred)
 			LoginOKNoti(user["email"], user["level"])
@@ -1138,7 +1127,7 @@ def GetFShareCred():
 			dialog = xbmcgui.Dialog()
 			yes = dialog.yesno(
 				'Đăng nhập không thành công!\n',
-				'[COLOR yellow]Bạn muốn nhập tài khoản FShare VIP bây giờ không?[/COLOR]',
+				'[COLOR yellow]Nhập VIP Fshare của bạn [/COLOR]',
 				yeslabel='OK, nhập ngay',
 				nolabel='Bỏ qua'
 			)
@@ -1149,9 +1138,9 @@ def GetFShareCred():
 
 
 def LoginOKNoti(user="",lvl=""):
-	header = "[COLOR red]FAMILY[/COLOR] [COLOR lime]CINEMA![/COLOR]"
-	message = "[COLOR yellow][B]Enjoy Your Time[/B][/COLOR]".format(user, lvl)
-	xbmc.executebuiltin('Notification("{}", "{}", "{}", "")'.format(header, message, "10000"))
+	header = "[COLOR yellow]ENTETAINMENT![/COLOR]"
+	message = "[COLOR blue][B]Enjoy Your Time[/B][/COLOR]"
+	xbmc.executebuiltin('Notification("{}", "{}","{}", "")'.format(header, message, "10000"))
 
 
 def GetFShareUser(cred):
@@ -1198,7 +1187,7 @@ def GA(title="Home", page="/"):
 		client_id = open(cid_path).read()
 		data = {
 			'v': '1',
-			'tid': 'UA-52209804-5',  # Thay GA id của bạn ở đây
+			'tid': 'UA-89364622-1',  # Thay GA id của bạn ở đây
 			'cid': client_id,
 			't': 'pageview',
 			'dp': "VNPlaylist%s" % page,
