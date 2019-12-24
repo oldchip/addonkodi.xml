@@ -1138,8 +1138,8 @@ def GetFShareCred():
 
 
 def LoginOKNoti(user="",lvl=""):
-	header = "[COLOR yellow]ENTETAINMENT![/COLOR]"
-	message = "[COLOR blue][B]Enjoy Your Time[/B][/COLOR]"
+	header = "[COLOR yellow]MERRY X-MASS![/COLOR]"
+	message = "[COLOR blue][B]HAPPY NEW YEAR[/B][/COLOR]"
 	xbmc.executebuiltin('Notification("{}", "{}","{}", "")'.format(header, message, "10000"))
 
 
