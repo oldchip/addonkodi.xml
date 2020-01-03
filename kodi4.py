@@ -1085,7 +1085,7 @@ def convert_ipv4_url(url):
 	return url
 	
 def LoginFShare(uname,pword):
-	login_uri = "https://api2.fshare.vn/api/user/login"
+	login_uri = "https://118.69.164.19/api/user/login"
 	login_uri = convert_ipv4_url(login_uri)
 	fshare_headers = {
 		"Accept-Encoding": "gzip, deflate, sdch"
@@ -1138,7 +1138,7 @@ def GetFShareCred():
 
 
 def LoginOKNoti(user="",lvl=""):
-	header = "[COLOR yellow]MERRY X-MASS![/COLOR]"
+	header = "[COLOR yellow]MERRY X-MAS![/COLOR]"
 	message = "[COLOR blue][B]HAPPY NEW YEAR[/B][/COLOR]"
 	xbmc.executebuiltin('Notification("{}", "{}","{}", "")'.format(header, message, "10000"))
 
