@@ -174,7 +174,7 @@ def getItems(url_path="0", tq="select A,B,C,D,E"):
 		item["path"] = new_path
 
 		item["thumbnail"] = getValue(row["c"][2])
-		item["info"] = getValue(row["c"][3])
+		item["info"] = {"plot": getValue(row["c"][3])}
 		if "plugin://" in item["path"]:
 			if "install-repo" in item["path"]:
 				item["is_playable"] = False
@@ -241,7 +241,7 @@ def getItems(url_path="0", tq="select A,B,C,D,E"):
 				# https://www.youtube.com/channel/UC-9-kyTW8ZkZNDHQJ6FgpwQ
 				yt_route = "ytcp" if "playlists" in item["path"] else "ytc"
 				yt_cid = re.compile("youtube.com/channel/(.+?)$").findall(item["path"])[0]
-				item["path"] = "plugin://plugin.video.youtube/channel/%s/" % yt_cid
+				item["path"] = "plugin://plugin.video.youtube/?action=play_video&videoid=%s'%id" % yt_cid
 			elif "youtube.com/playlist" in item["path"]:
 				# https://www.youtube.com/playlist?list=PLFgquLnL59alCl_2TQvOiD5Vgm1hCaGSI
 				yt_pid = re.compile("list=(.+?)$").findall(item["path"])[0]
