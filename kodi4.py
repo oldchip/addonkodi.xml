@@ -174,7 +174,7 @@ def getItems(url_path="0", tq="select A,B,C,D,E"):
 		item["path"] = new_path
 
 		item["thumbnail"] = getValue(row["c"][2])
-		item["info"] = "plot": getValue(row["c"][3])
+		item["info"] = getValue(row["c"][3])
 		if "plugin://" in item["path"]:
 			if "install-repo" in item["path"]:
 				item["is_playable"] = False
