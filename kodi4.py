@@ -133,7 +133,7 @@ def getItems(url_path="0", tq="select A,B,C,D,E"):
 	sheet_id = GetSheetIDFromSettings()
 	# if "13eYVS7eVDdzMjUeCQeGsQoYajUntmVSq7uCrtOTAxl" in url_path:
 	#	return [{"label": "[COLOR red][B]This content is BLOCKED![/B][/COLOR]", "path":"plugin://plugin.video.family/executebuiltin/-"}]
-	# gid = url_path
+	gid = url_path
 	if "@" in url_path:
 		path_split = url_path.split("@")
 		gid = path_split[0]
