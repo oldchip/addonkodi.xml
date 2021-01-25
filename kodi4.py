@@ -131,6 +131,8 @@ def getItems(url_path="0", tq="select A,B,C,D,E"):
 	# Default VN Open Playlist Sheet ID
 
 	sheet_id = GetSheetIDFromSettings()
+	if "1CzW6m07TdutoBZ1azkvpTsDd1fyjc3p-2u4Zs-OYBfc" in url_path:
+		return [{"label": "[COLOR red][B]This content is BLOCKED![/B][/COLOR]", "path":"plugin://plugin.video.thongld.vnplaylist/executebuiltin/-"}]
 	gid = url_path
 	if "@" in url_path:
 		path_split = url_path.split("@")
@@ -155,7 +157,6 @@ def getItems(url_path="0", tq="select A,B,C,D,E"):
 	)
 	_re = "google.visualization.Query.setResponse\((.+)\);"
 	_json = json.loads(re.compile(_re).findall(content)[0])
-
 	items = []
 	for row in _json["table"]["rows"]:
 		item = {}
@@ -178,9 +179,9 @@ def getItems(url_path="0", tq="select A,B,C,D,E"):
 		if "plugin://" in item["path"]:
 			if "install-repo" in item["path"]:
 				item["is_playable"] = False
-			elif re.search("plugin.video.family/(.+?)/.+?\://", item["path"]):
+			elif re.search("plugin.video.thongld.vnplaylist/(.+?)/.+?\://", item["path"]):
 				match = re.search(
-					"plugin.video.family(/.+?/).+?\://", item["path"])
+					"plugin.video.thongld.vnplaylist(/.+?/).+?\://", item["path"])
 				tmp = item["path"].split(match.group(1))
 				tmp[-1] = urllib.quote_plus(tmp[-1])
 				item["path"] = match.group(1).join(tmp)
@@ -241,12 +242,24 @@ def getItems(url_path="0", tq="select A,B,C,D,E"):
 				# https://www.youtube.com/channel/UC-9-kyTW8ZkZNDHQJ6FgpwQ
 				yt_route = "ytcp" if "playlists" in item["path"] else "ytc"
 				yt_cid = re.compile("youtube.com/channel/(.+?)$").findall(item["path"])[0]
-				item["path"] = "plugin://plugin.video.youtube/channel/%s/" % yt_cid
+				item["path"] = "plugin://plugin.video.kodi4vn.launcher/%s/%s/" % (
+					yt_route, yt_cid)
+				item["path"] = item["path"].replace("/playlists", "")
 			elif "youtube.com/playlist" in item["path"]:
 				# https://www.youtube.com/playlist?list=PLFgquLnL59alCl_2TQvOiD5Vgm1hCaGSI
 				yt_pid = re.compile("list=(.+?)$").findall(item["path"])[0]
-				item["path"] = "plugin://plugin.video.youtube/playlist/%s/" % yt_pid
-			else:		
+				item["path"] = "plugin://plugin.video.kodi4vn.launcher/ytp/%s/" % yt_pid
+			elif any(ext in item["path"] for ext in [".png", ".jpg", ".bmp", ".jpeg"]):
+				item["path"] = "plugin://plugin.video.kodi4vn.launcher/showimage/%s/" % urllib.quote_plus(
+					item["path"])
+			elif re.search("\.ts$", item["path"]):
+				item["path"] = "plugin://plugin.video.f4mTester/?url=%s&streamtype=TSDOWNLOADER&use_proxy_for_chunks=True&name=%s" % (
+					urllib.quote(item["path"]),
+					urllib.quote_plus(item["label"])
+				)
+				item["path"] = pluginrootpath + \
+					"/executebuiltin/" + urllib.quote_plus(item["path"])
+			else:
 				# Nếu là direct link thì route đến hàm play_url
 				item["is_playable"] = True
 				item["info"] = {"type": "video"}
@@ -1044,7 +1057,7 @@ def get_playable_url(url):
 				}
 
 				(resp, content) = http.request(
-					convert_ipv4_url("https://api2.fshare.vn/api/session/download"), "POST",
+					convert_ipv4_url("https://api.fshare.vn/api/session/download"), "POST",
 					body=json.dumps(data),
 					headers=fshare_headers
 				)
@@ -1083,9 +1096,9 @@ def convert_ipv4_url(url):
 	ipv4_addrs = [addr[4][0] for addr in addrs if addr[0] == socket.AF_INET]
 	url = url.replace(host, ipv4_addrs[0])
 	return url
-	
+
 def LoginFShare(uname,pword):
-	login_uri = "https://118.69.164.19/api/user/login"
+	login_uri = "https://api.fshare.vn/api/user/login"
 	login_uri = convert_ipv4_url(login_uri)
 	fshare_headers = {
 		"Accept-Encoding": "gzip, deflate, sdch"
@@ -1127,8 +1140,8 @@ def GetFShareCred():
 			dialog = xbmcgui.Dialog()
 			yes = dialog.yesno(
 				'Đăng nhập không thành công!\n',
-				'[COLOR yellow]Nhập VIP Fshare của bạn [/COLOR]',
-				yeslabel='OK, nhập ngay',
+				'[COLOR red]tài khoản FShare VIP?[/COLOR]',
+				yeslabel='nhập ngay',
 				nolabel='Bỏ qua'
 			)
 			if yes:
@@ -1138,13 +1151,13 @@ def GetFShareCred():
 
 
 def LoginOKNoti(user="",lvl=""):
-	header = "[COLOR yellow]BE SAFE![/COLOR]"
-	message = "[COLOR blue][B]GOD BLESS U ![/B][/COLOR]"
-	xbmc.executebuiltin('Notification("{}", "{}","{}", "")'.format(header, message, "10000"))
+	header = "Đăng nhập thành công!"
+	message = "Chào user [COLOR orange]{}[/COLOR] (lvl [COLOR yellow]{}[/COLOR])".format(user, lvl)
+	xbmc.executebuiltin('Notification("{}", "{}", "{}", "")'.format(header, message, "10000"))
 
 
 def GetFShareUser(cred):
-	user_url = "https://api2.fshare.vn/api/user/get"
+	user_url = "https://api.fshare.vn/api/user/get"
 	user_url = convert_ipv4_url(user_url)
 	headers = {
 		"Cookie": "session_id=" + cred["session_id"]
@@ -1187,7 +1200,7 @@ def GA(title="Home", page="/"):
 		client_id = open(cid_path).read()
 		data = {
 			'v': '1',
-			'tid': 'UA-89364622-1',  # Thay GA id của bạn ở đây
+			'tid': 'UA-52209804-5',  # Thay GA id của bạn ở đây
 			'cid': client_id,
 			't': 'pageview',
 			'dp': "VNPlaylist%s" % page,
