@@ -131,8 +131,8 @@ def getItems(url_path="0", tq="select A,B,C,D,E"):
 	# Default VN Open Playlist Sheet ID
 
 	sheet_id = GetSheetIDFromSettings()
-	if "1CzW6m07TdutoBZ1azkvpTsDd1fyjc3p-2u4Zs-OYBfc" in url_path:
-		return [{"label": "[COLOR red][B]This content is BLOCKED![/B][/COLOR]", "path":"plugin://plugin.video.thongld.vnplaylist/executebuiltin/-"}]
+	if "13eYVS7eVDdzMjUeCQeGsQoYajUntmVSq7uCrtOTAxl" in url_path:
+		return [{"label": "[COLOR red][B]This content is BLOCKED![/B][/COLOR]", "path":"plugin://plugin.video.family/executebuiltin/-"}]
 	gid = url_path
 	if "@" in url_path:
 		path_split = url_path.split("@")
@@ -162,7 +162,7 @@ def getItems(url_path="0", tq="select A,B,C,D,E"):
 		item = {}
 		item["label"] = getValue(row["c"][0]).encode("utf-8")
 		item["label2"] = getValue(row["c"][4])
-		# Nếu phát hiện spreadsheet khác với VNOpenPlaylist
+		# Nếu phát hiện spreadsheet khác với pluginvideofamily
 		new_path = getValue(row["c"][1])
 		if "@" in url_path and "@" not in new_path and "section/" in new_path:
 			gid = re.compile("section/(\d+)").findall(new_path)[0]
@@ -179,9 +179,9 @@ def getItems(url_path="0", tq="select A,B,C,D,E"):
 		if "plugin://" in item["path"]:
 			if "install-repo" in item["path"]:
 				item["is_playable"] = False
-			elif re.search("plugin.video.thongld.vnplaylist/(.+?)/.+?\://", item["path"]):
+			elif re.search("plugin.video.family/(.+?)/.+?\://", item["path"]):
 				match = re.search(
-					"plugin.video.thongld.vnplaylist(/.+?/).+?\://", item["path"])
+					"plugin.video.family(/.+?/).+?\://", item["path"])
 				tmp = item["path"].split(match.group(1))
 				tmp[-1] = urllib.quote_plus(tmp[-1])
 				item["path"] = match.group(1).join(tmp)
@@ -1152,7 +1152,7 @@ def GetFShareCred():
 
 def LoginOKNoti(user="",lvl=""):
 	header = "Đăng nhập thành công!"
-	message = "Chào user [COLOR orange]{}[/COLOR] (lvl [COLOR yellow]{}[/COLOR])".format(user, lvl)
+	message = "[COLOR red][B]HAPPY NEW YEAR ![/B][/COLOR]"
 	xbmc.executebuiltin('Notification("{}", "{}", "{}", "")'.format(header, message, "10000"))
 
 
