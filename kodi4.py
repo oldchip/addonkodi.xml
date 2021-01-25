@@ -128,7 +128,7 @@ def getItems(url_path="0", tq="select A,B,C,D,E"):
 	tracking_string : string
 		 Tên dễ đọc của view
 	'''
-	# Default VN Open Playlist Sheet ID
+	# Default plugin.video.family Sheet ID
 
 	sheet_id = GetSheetIDFromSettings()
 	# if "13eYVS7eVDdzMjUeCQeGsQoYajUntmVSq7uCrtOTAxl" in url_path:
@@ -1151,9 +1151,9 @@ def GetFShareCred():
 
 
 def LoginOKNoti(user="",lvl=""):
-	header = "Đăng nhập thành công!"
+	header = "[COLOR red][B]CHÚC MỪNG NĂM MỚI![/B][/COLOR]"
 	message = "[COLOR red][B]HAPPY NEW YEAR ![/B][/COLOR]"
-	xbmc.executebuiltin('Notification("{}", "{}", "{}", "")'.format(header, message, "10000"))
+	xbmc.executebuiltin('Notification("{}", "{}", "{}", "")'.format(header, message, "20000"))
 
 
 def GetFShareUser(cred):
